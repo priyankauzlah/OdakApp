@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sign_in"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_80dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/welcome_back"
+        android:textColor="@color/main_color"
+        android:textSize="@dimen/_22sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/text_login"
+        android:textSize="@dimen/_14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_50dp"
+        android:layout_marginTop="@dimen/_30dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/email"
+        android:textSize="@dimen/_16sp" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_50dp"
+        android:layout_marginEnd="@dimen/_50dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:padding="@dimen/_12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_50dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/password"
+        android:textSize="@dimen/_16sp" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_50dp"
+        android:layout_marginEnd="@dimen/_50dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="@dimen/_12dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_40dp"
+        android:background="@drawable/button_radius"
+        android:padding="@dimen/_10dp"
+        android:text="@string/log_in"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_40dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/ask_login"
+        android:textSize="@dimen/_15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/sign_up"
+        android:textColor="@color/main_color"
+        android:textSize="@dimen/_16sp" />
+
+</LinearLayout>

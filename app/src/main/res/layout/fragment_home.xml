@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <RelativeLayout
+        android:id="@+id/rl_main_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_main_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home_fragment" />
+
+        <TextView
+            android:id="@+id/tv_hi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16dp"
+            android:layout_marginTop="@dimen/_20dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/hi"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20dp"
+            android:layout_toEndOf="@id/tv_hi"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/name"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_22sp" />
+
+        <TextView
+            android:id="@+id/tv_last_log"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_hi"
+            android:layout_marginStart="@dimen/_16dp"
+            android:text="@string/text_last_log"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_hi"
+            android:layout_toEndOf="@id/tv_last_log"
+            android:text="@string/last_log"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_14sp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/_65dp"
+            android:layout_height="@dimen/_65dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/_20dp"
+            android:layout_marginEnd="@dimen/_16dp"
+            android:src="@drawable/image" />
+
+        <TextView
+            android:id="@+id/weekly_statistics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_last_log"
+            android:layout_marginStart="@dimen/_20dp"
+            android:layout_marginTop="@dimen/_20dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/weekly_statistics"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_16sp" />
+
+        <TextView
+            android:id="@+id/todays_tasks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/weekly_statistics"
+            android:layout_marginStart="@dimen/_20dp"
+            android:layout_marginTop="@dimen/_20dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/today_s_tasks"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="@dimen/_145dp"
+                android:layout_height="@dimen/_40dp"
+                android:layout_below="@id/todays_tasks"
+                android:layout_marginEnd="@dimen/_10dp"
+                android:background="@drawable/button_radius"
+                android:text="@string/global_rank"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_14sp" />
+
+            <Button
+                android:layout_width="@dimen/_145dp"
+                android:layout_height="@dimen/_40dp"
+                android:layout_below="@id/todays_tasks"
+                android:layout_marginStart="@dimen/_10dp"
+                android:background="@drawable/button_radius"
+                android:text="@string/ask_mentor"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_14sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
