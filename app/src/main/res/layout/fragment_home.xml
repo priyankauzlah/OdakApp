@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -65,40 +66,54 @@
             android:src="@drawable/image" />
 
         <TextView
-            android:id="@+id/weekly_statistics"
+            android:id="@+id/tv_statistics"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/tv_last_log"
-            android:layout_marginStart="@dimen/_20dp"
+            android:layout_marginStart="@dimen/_50dp"
             android:layout_marginTop="@dimen/_20dp"
             android:fontFamily="@font/poppins_semibold"
             android:text="@string/weekly_statistics"
             android:textColor="@android:color/white"
             android:textSize="@dimen/_16sp" />
 
+        <ImageView
+            android:id="@+id/iv_statistics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_statistics"
+            android:src="@drawable/weekly_statistics" />
+
         <TextView
-            android:id="@+id/todays_tasks"
+            android:id="@+id/tv_today"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/weekly_statistics"
-            android:layout_marginStart="@dimen/_20dp"
+            android:layout_below="@id/iv_statistics"
+            android:layout_marginStart="@dimen/_50dp"
             android:layout_marginTop="@dimen/_20dp"
             android:fontFamily="@font/poppins_semibold"
             android:text="@string/today_s_tasks"
             android:textColor="@android:color/black"
             android:textSize="@dimen/_16sp" />
 
+        <ImageView
+            android:id="@+id/iv_today"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_today"
+            android:src="@drawable/todays_task" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
+            android:layout_above="@id/home_nav"
+            android:layout_marginBottom="@dimen/_30dp"
             android:gravity="center_horizontal"
             android:orientation="horizontal">
 
             <Button
                 android:layout_width="@dimen/_145dp"
                 android:layout_height="@dimen/_40dp"
-                android:layout_below="@id/todays_tasks"
                 android:layout_marginEnd="@dimen/_10dp"
                 android:background="@drawable/button_radius"
                 android:text="@string/global_rank"
@@ -108,7 +123,6 @@
             <Button
                 android:layout_width="@dimen/_145dp"
                 android:layout_height="@dimen/_40dp"
-                android:layout_below="@id/todays_tasks"
                 android:layout_marginStart="@dimen/_10dp"
                 android:background="@drawable/button_radius"
                 android:text="@string/ask_mentor"
@@ -116,6 +130,15 @@
                 android:textSize="@dimen/_14sp" />
 
         </LinearLayout>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/home_nav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:itemIconTint="@color/main_color"
+            app:labelVisibilityMode="unlabeled"
+            app:menu="@menu/bottom_navigation" />
 
     </RelativeLayout>
 
