@@ -21,7 +21,7 @@
     <string name="full_name">Full Name</string>
     <string name="create_password">Create Password</string>
     <string name="confirm_password">Confirm Password</string>
-    <!-- TODO: Remove or change this placeholder text -->
+<!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hi">Hi, </string>
     <string name="name">Name</string>
@@ -31,15 +31,4 @@
     <string name="today_s_tasks">Today\'s Tasks</string>
     <string name="global_rank">Global Rank</string>
     <string name="ask_mentor">Ask Mentor</string>
-    <string name="home">Home</string>
-    <string name="chat">Chat</string>
-    <string name="planner">Planner</string>
-    <string name="profile">Profile</string>
-    <string name="timer">Timer</string>
-    <string name="focus_timer">Focus Timer</string>
-    <string name="biology_class">Biology Class</string>
-    <string name="text_timer">07:15am - 07:45am</string>
-    <string name="total_duration">Total duration:</string>
-    <string name="text_duration">30 minutes</string>
-    <string name="lets_start">Let\'s start!</string>
 </resources>
