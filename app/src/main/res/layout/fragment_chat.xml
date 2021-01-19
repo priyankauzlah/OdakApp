@@ -85,6 +85,19 @@
                     android:textColor="@color/black"
                     android:textSize="@dimen/_13sp" />
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/iv_taylor_chat_name"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/main_circle"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:gravity="center"
+                    android:text="@string/_1"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10sp"
+                    tools:ignore="SmallSp" />
+
             </RelativeLayout>
 
             <RelativeLayout
@@ -174,6 +187,19 @@
                     android:text="@string/_08_50"
                     android:textColor="@color/black"
                     android:textSize="@dimen/_13sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/iv_biology_name"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/main_circle"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:gravity="center"
+                    android:text="@string/_20"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10sp"
+                    tools:ignore="SmallSp" />
 
             </RelativeLayout>
 
@@ -265,6 +291,19 @@
                     android:textColor="@color/black"
                     android:textSize="@dimen/_13sp" />
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/iv_univ_name"
+                    android:layout_alignParentEnd="true"
+                    android:background="@drawable/main_circle"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:gravity="center"
+                    android:text="@string/_42"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/_10sp"
+                    tools:ignore="SmallSp" />
+
             </RelativeLayout>
 
             <RelativeLayout
@@ -279,7 +318,7 @@
                     android:layout_width="@dimen/_50dp"
                     android:layout_height="@dimen/_50dp"
                     android:layout_marginEnd="@dimen/_10dp"
-                    android:src="@drawable/ui_group" />
+                    android:src="@drawable/donald_mcdonald" />
 
                 <TextView
                     android:id="@+id/iv_donald_name"
