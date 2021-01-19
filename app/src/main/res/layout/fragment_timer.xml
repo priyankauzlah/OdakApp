@@ -71,7 +71,7 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="@dimen/_25dp"
                 android:fontFamily="@font/poppins_semibold"
-                android:text="@string/lets_start"
+                android:text="@string/let_s_start"
                 android:textColor="@color/main_color"
                 android:textSize="@dimen/_20sp" />
 
