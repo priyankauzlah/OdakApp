@@ -87,4 +87,12 @@
     <string name="text_duration">Total duration:</string>
     <string name="_30_minutes">30 minutes</string>
     <string name="let_s_start">Let\'s start!</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="time_vina">11:24:14</string>
+    <string name="_2">2</string>
+    <string name="time_lucas">10:14:34</string>
+    <string name="_3">3</string>
+    <string name="you">YOU</string>
+    <string name="time_zara">08:20:01</string>
 </resources>
