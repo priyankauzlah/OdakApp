@@ -1,33 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/second_onboarding"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/onboarding_2"
     android:orientation="vertical"
-    android:padding="@dimen/_40dp">
+    android:padding="@dimen/_20dp">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/iv_second_onboarding"
+        android:layout_width="@dimen/_257dp"
+        android:layout_height="@dimen/_332dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/_40dp"
+        android:layout_marginStart="@dimen/_45dp"
+        android:layout_marginTop="@dimen/_45dp"
+        android:layout_marginEnd="@dimen/_45dp"
         android:src="@drawable/vector_2" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/tv_focus_on_work"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_second_onboarding"
+        android:layout_alignStart="@+id/iv_second_onboarding"
+        android:layout_alignEnd="@+id/iv_second_onboarding"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/_16dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
         android:text="@string/second_title"
         android:textSize="@dimen/_22sp"
         android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/tv_focus_explanation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_focus_on_work"
+        android:fontFamily="@font/poppins_semibold"
         android:text="@string/second_onboarding"
         android:textAlignment="center"
         android:textSize="@dimen/_18sp" />
 
-</LinearLayout>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_solid_a"
+        android:layout_width="@dimen/_18dp"
+        android:layout_height="@dimen/_18dp"
+        android:layout_above="@+id/tv_skip_2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/_140dp"
+        android:layout_marginBottom="@dimen/_100dp"
+        android:src="#B3FFFFFF" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_transparent_b"
+        android:layout_width="@dimen/_18dp"
+        android:layout_height="@dimen/_18dp"
+        android:layout_above="@+id/tv_skip_2"
+        android:layout_marginStart="@dimen/_20dp"
+        android:layout_marginBottom="@dimen/_100dp"
+        android:layout_toEndOf="@+id/iv_solid_a"
+        android:src="#FFFFFFFF" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_transparent_c"
+        android:layout_width="@dimen/_18dp"
+        android:layout_height="@dimen/_18dp"
+        android:layout_above="@+id/tv_skip_2"
+        android:layout_marginStart="@dimen/_20dp"
+        android:layout_marginBottom="@dimen/_100dp"
+        android:layout_toEndOf="@+id/iv_transparent_b"
+        android:src="#B3FFFFFF" />
+
+    <TextView
+        android:id="@+id/tv_skip_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_5dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/skip"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_18sp" />
+
+    <Button
+        android:layout_width="@dimen/_108dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/_246dp"
+        android:layout_toEndOf="@+id/tv_skip_2"
+        android:background="@drawable/edit_text_background"
+        android:text="@string/next"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_16sp" />
+
+</RelativeLayout>
