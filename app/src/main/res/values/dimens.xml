@@ -35,7 +35,6 @@
     <dimen name="_246dp">246dp</dimen>
     <dimen name="_140dp">140dp</dimen>
     <dimen name="_45dp">45dp</dimen>
-
     <dimen name="_4dp">4dp</dimen>
     <dimen name="_14dp">14sp</dimen>
     <dimen name="_35dp">35dp</dimen>
@@ -45,7 +44,6 @@
     <dimen name="_90dp">90dp</dimen>
     <dimen name="_23dp">23dp</dimen>
     <dimen name="_3dp">3dp</dimen>
-
     <dimen name="_257dp">257dp</dimen>
     <dimen name="_332dp">332dp</dimen>
 </resources>
