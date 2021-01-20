@@ -57,4 +57,11 @@
     <string name="txt_kennath_abraham">Kennath Abraham</string>
     <string name="txt_rachel_lee">Rachel Lee</string>
     <string name="txt_math">Math</string>
+    <string name="focus_timer">Focus Timer</string>
+    <string name="biology_class">Biology Class</string>
+    <string name="text_timer">Timer</string>
+    <string name="total_duration">Total Duration</string>
+    <string name="text_duration">30 Minutes</string>
+    <string name="lets_start">Let\'s start</string>
+
 </resources>
