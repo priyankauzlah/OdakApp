@@ -43,4 +43,9 @@
     <dimen name="_47dp">47dp</dimen>
     <dimen name="_100dp">100dp</dimen>
     <dimen name="_28sp">28sp</dimen>
+    <dimen name="_108dp">108dp</dimen>
+    <dimen name="_246dp">246dp</dimen>
+    <dimen name="_18dp">18dp</dimen>
+    <dimen name="_140dp">140dp</dimen>
+    <dimen name="_35sp">35sp</dimen>
 </resources>
