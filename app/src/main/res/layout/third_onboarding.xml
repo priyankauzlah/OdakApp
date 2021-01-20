@@ -81,7 +81,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="@dimen/_5dp"
         android:fontFamily="@font/poppins_medium"
-        android:text="@string/txt_skip"
+        android:text="@string/skip"
         android:textColor="@color/white"
         android:textSize="@dimen/_18sp" />
 

@@ -219,8 +219,5 @@
         android:layout_marginEnd="@dimen/_10dp"
         android:background="@android:color/darker_gray" />
 
-    
-
-
 
 </RelativeLayout>
