@@ -48,4 +48,6 @@
     <dimen name="_28sp">28sp</dimen>
     <dimen name="_110dp">110dp</dimen>
     <dimen name="_47dp">47dp</dimen>
+    <dimen name="_257dp">257dp</dimen>
+    <dimen name="_332dp">332dp</dimen>
 </resources>

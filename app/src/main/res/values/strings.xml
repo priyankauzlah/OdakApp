@@ -21,7 +21,7 @@
     <string name="full_name">Full Name</string>
     <string name="create_password">Create Password</string>
     <string name="confirm_password">Confirm Password</string>
-<!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hi">Hi, </string>
     <string name="name">Name</string>
@@ -95,4 +95,7 @@
     <string name="_3">3</string>
     <string name="you">YOU</string>
     <string name="time_zara">08:20:01</string>
+    <string name="_00_15_00">00:15:00</string>
+    <string name="_00_15_00_2">-00:15:00</string>
+    <string name="don_t_give_up">Don\'t give up!</string>
 </resources>
