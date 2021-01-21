@@ -38,7 +38,7 @@
     <string name="chat">Chat</string>
     <string name="_09_20">09:20</string>
     <string name="chat_taylor">Hi, kamu sudah mengerjak...</string>
-    <string name="_1">1</string>
+    <string name="_1">#1</string>
     <string name="lucas_parker">Lucas Parker</string>
     <string name="chat_lucas">Gimana caranya???</string>
     <string name="_09_15">09:15</string>
@@ -81,4 +81,32 @@
     <string name="txt_kennath_abraham">Kennath Abraham</string>
     <string name="txt_rachel_lee">Rachel Lee</string>
     <string name="txt_math">Math</string>
+
+    <string name="txt_focus_timer">Focus Timer</string>
+    <string name="txt_biology_class">Biology Class</string>
+    <string name="text_timer">Timer</string>
+    <string name="total_duration">Total Duration</string>
+    <string name="_30_minutes">30 Minutes</string>
+    <string name="let_s_start">Let\'s start</string>
+    <string name="time_vina">11:24:14</string>
+    <string name="_2">#2</string>
+    <string name="_3">#3</string>
+    <string name="time_lucas">10:14:34</string>
+    <string name="you">YOU</string>
+    <string name="time_zara">08:20:01</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="text_duration">30 Minutes</string>
+    <string name="time_daniel">07:40:22</string>
+    <string name="daniel_martin">Daniel Martin</string>
+    <string name="_4">#4</string>
+    <string name="_5">#5</string>
+    <string name="time_carter">05:30:36</string>
+    <string name="carter_collins">Carter Collins</string>
+    <string name="_6">#6</string>
+    <string name="emma_carter">Emma Carter</string>
+    <string name="_7">#7</string>
+    <string name="time_taylor">04:00:00</string>
+    <string name="_8">#8</string>
+    <string name="time_zoey">03:30:00</string>
 </resources>
