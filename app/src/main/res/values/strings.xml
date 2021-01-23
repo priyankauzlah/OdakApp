@@ -96,5 +96,9 @@
     <string name="text_duration">30 Minutes</string>
     <string name="lets_start">Let\'s start</string>
     <string name="txt_07_15am_07_45am">07:15am - 07:45am</string>
+    <string name="timer">Timer</string>
+    <string name="home">Home</string>
+    <string name="planner">Planner</string>
+    <string name="profile">Profile</string>
 
 </resources>
