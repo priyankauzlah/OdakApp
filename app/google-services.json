@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "463516265017",
+    "project_id": "odak-52f80",
+    "storage_bucket": "odak-52f80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463516265017:android:2faca6d46ccf3ab5eb3be8",
+        "android_client_info": {
+          "package_name": "com.kei.odakapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463516265017-c9dt3ovn4g0443gqglpac6po23v07vnj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kei.odakapp",
+            "certificate_hash": "d66d6a93f666811f17aa77685228c0ef8556ce83"
+          }
+        },
+        {
+          "client_id": "463516265017-hd7n1rusorfm6k2v7vq9t9ojmit6rug2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsIBW6dE3tojqUIjIh4EJlp3ATYe3gHAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463516265017-hd7n1rusorfm6k2v7vq9t9ojmit6rug2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
