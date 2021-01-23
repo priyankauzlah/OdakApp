@@ -1,10 +1,11 @@
-package com.kei.odakapp
+package com.kei.odakapp.chat
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.kei.odakapp.R
 
 class ChatFragment : Fragment() {
 
@@ -23,7 +24,7 @@ class ChatFragment : Fragment() {
     }
 
     companion object {
-        fun newInstance() :ChatFragment {
+        fun newInstance() : ChatFragment {
             val fragment = ChatFragment()
             val args = Bundle()
             fragment.arguments = args

@@ -1,10 +1,10 @@
-package com.kei.odakapp
+package com.kei.odakapp.intro.onboard
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_first_onboarding.*
-import kotlinx.android.synthetic.main.activity_second_onboarding.*
+import com.kei.odakapp.R
+import com.kei.odakapp.auth.login.LoginActivity
 import kotlinx.android.synthetic.main.activity_third_onboarding.*
 
 class ThirdOnboardingActivity : AppCompatActivity() {

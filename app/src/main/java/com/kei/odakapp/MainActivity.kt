@@ -4,6 +4,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.kei.odakapp.chat.ChatFragment
+import com.kei.odakapp.home.HomeFragment
+import com.kei.odakapp.profile.ProfileFragment
+import com.kei.odakapp.timer.TimerFragment
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/sign_in"
     android:orientation="vertical"
-    tools:context=".RegisterActivity">
+    tools:context=".auth.register.RegisterActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -106,6 +106,7 @@
         android:padding="@dimen/_12dp" />
 
     <Button
+        android:id="@+id/btn_register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -125,6 +126,7 @@
         android:textSize="@dimen/_15sp" />
 
     <TextView
+        android:id="@+id/tv_login_register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
