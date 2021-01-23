@@ -21,7 +21,7 @@
     <string name="full_name">Full Name</string>
     <string name="create_password">Create Password</string>
     <string name="confirm_password">Confirm Password</string>
-    <!-- TODO: Remove or change this placeholder text -->
+<!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hi">Hi, </string>
     <string name="name">Name</string>
@@ -81,21 +81,4 @@
     <string name="txt_kennath_abraham">Kennath Abraham</string>
     <string name="txt_rachel_lee">Rachel Lee</string>
     <string name="txt_math">Math</string>
-    <string name="txt_focus_timer">Focus Timer</string>
-    <string name="txt_biology_class">Biology Class</string>
-    <string name="text_timer">07:15am - 07:45am</string>
-    <string name="text_duration">Total duration:</string>
-    <string name="_30_minutes">30 minutes</string>
-    <string name="let_s_start">Let\'s start!</string>
-    <string name="skip">Skip</string>
-    <string name="next">Next</string>
-    <string name="time_vina">11:24:14</string>
-    <string name="_2">2</string>
-    <string name="time_lucas">10:14:34</string>
-    <string name="_3">3</string>
-    <string name="you">YOU</string>
-    <string name="time_zara">08:20:01</string>
-    <string name="_00_15_00">00:15:00</string>
-    <string name="_00_15_00_2">-00:15:00</string>
-    <string name="don_t_give_up">Don\'t give up!</string>
 </resources>

@@ -28,9 +28,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="@dimen/_15dp"
-        android:layout_marginTop="@dimen/_100dp"
-        android:layout_marginEnd="@dimen/_15dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="13dp"
         android:src="@drawable/global_rank_background" />
 
     <TextView
@@ -219,5 +219,299 @@
         android:layout_marginEnd="@dimen/_10dp"
         android:background="@android:color/darker_gray" />
 
+    <TextView
+        android:id="@+id/tv_no4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/view4"
+        android:layout_below="@id/view3"
+        android:layout_marginStart="@dimen/_47dp"
+        android:layout_marginTop="@dimen/_20dp"
+        android:layout_marginBottom="@dimen/_20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/_4"
+        android:textColor="#C4C4C4"
+        android:textSize="@dimen/_22sp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_daniel_martin"
+        android:layout_width="@dimen/_60dp"
+        android:layout_height="@dimen/_60dp"
+        android:layout_below="@id/view3"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:layout_toEndOf="@id/tv_no1"
+        android:src="@drawable/daniel_martin" />
+
+    <TextView
+        android:id="@+id/tv_daniel_martin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view3"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:layout_toEndOf="@+id/iv_daniel_martin"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/daniel_martin"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_22sp" />
+
+    <TextView
+        android:id="@+id/tv_time_daniel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_daniel_martin"
+        android:layout_alignStart="@+id/tv_vina_gracia"
+        android:layout_alignEnd="@+id/tv_vina_gracia"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/time_daniel" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="@dimen/_380dp"
+        android:layout_height="@dimen/_1dp"
+        android:layout_below="@id/iv_daniel_martin"
+        android:layout_alignStart="@+id/iv_background_global_rank"
+        android:layout_alignEnd="@+id/iv_background_global_rank"
+        android:layout_marginStart="@dimen/_5dp"
+        android:layout_marginTop="@dimen/_5dp"
+        android:layout_marginEnd="@dimen/_10dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/tv_no5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/view5"
+        android:layout_below="@id/view4"
+        android:layout_marginStart="@dimen/_47dp"
+        android:layout_marginTop="@dimen/_20dp"
+        android:layout_marginBottom="@dimen/_20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/_5"
+        android:textColor="#C4C4C4"
+        android:textSize="@dimen/_22sp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_carter_collins"
+        android:layout_width="@dimen/_60dp"
+        android:layout_height="@dimen/_60dp"
+        android:layout_below="@id/view4"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:layout_toEndOf="@id/tv_no1"
+        android:src="@drawable/carter_collins" />
+
+    <TextView
+        android:id="@+id/tv_carter_collins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view4"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:layout_toEndOf="@+id/iv_carter_collins"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/carter_collins"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_22sp" />
+
+    <TextView
+        android:id="@+id/tv_time_carter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_carter_collins"
+        android:layout_alignStart="@+id/tv_vina_gracia"
+        android:layout_alignEnd="@+id/tv_vina_gracia"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/time_carter" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="@dimen/_380dp"
+        android:layout_height="@dimen/_1dp"
+        android:layout_below="@id/iv_carter_collins"
+        android:layout_alignStart="@+id/iv_background_global_rank"
+        android:layout_alignEnd="@+id/iv_background_global_rank"
+        android:layout_marginStart="@dimen/_5dp"
+        android:layout_marginTop="@dimen/_5dp"
+        android:layout_marginEnd="@dimen/_10dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/tv_no6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/view6"
+        android:layout_below="@id/view5"
+        android:layout_marginStart="@dimen/_47dp"
+        android:layout_marginTop="@dimen/_20dp"
+        android:layout_marginBottom="@dimen/_20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/_6"
+        android:textColor="#C4C4C4"
+        android:textSize="@dimen/_22sp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_emma_carter"
+        android:layout_width="@dimen/_60dp"
+        android:layout_height="@dimen/_60dp"
+        android:layout_below="@id/view5"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:layout_toEndOf="@id/tv_no1"
+        android:src="@drawable/emma_carter" />
+
+    <TextView
+        android:id="@+id/tv_emma_carter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view5"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:layout_toEndOf="@+id/iv_emma_carter"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/emma_carter"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_22sp" />
+
+    <TextView
+        android:id="@+id/tv_time_emma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_emma_carter"
+        android:layout_alignStart="@+id/tv_vina_gracia"
+        android:layout_alignEnd="@+id/tv_vina_gracia"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/time_carter" />
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="@dimen/_380dp"
+        android:layout_height="@dimen/_1dp"
+        android:layout_below="@id/iv_emma_carter"
+        android:layout_alignStart="@+id/iv_background_global_rank"
+        android:layout_alignEnd="@+id/iv_background_global_rank"
+        android:layout_marginStart="@dimen/_5dp"
+        android:layout_marginTop="@dimen/_5dp"
+        android:layout_marginEnd="@dimen/_10dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/tv_no7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/view7"
+        android:layout_below="@id/view6"
+        android:layout_marginStart="@dimen/_47dp"
+        android:layout_marginTop="@dimen/_20dp"
+        android:layout_marginBottom="@dimen/_20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/_7"
+        android:textColor="#C4C4C4"
+        android:textSize="@dimen/_22sp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_taylor_lashae"
+        android:layout_width="@dimen/_60dp"
+        android:layout_height="@dimen/_60dp"
+        android:layout_below="@id/view6"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:layout_toEndOf="@id/tv_no1"
+        android:src="@drawable/taylor_lashae" />
+
+    <TextView
+        android:id="@+id/tv_taylor_lashae"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view6"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:layout_toEndOf="@+id/iv_taylor_lashae"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/taylor_lashae"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_22sp" />
+
+    <TextView
+        android:id="@+id/tv_time_taylor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_taylor_lashae"
+        android:layout_alignStart="@+id/tv_vina_gracia"
+        android:layout_alignEnd="@+id/tv_vina_gracia"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/time_taylor" />
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="@dimen/_380dp"
+        android:layout_height="@dimen/_1dp"
+        android:layout_below="@id/iv_taylor_lashae"
+        android:layout_alignStart="@+id/iv_background_global_rank"
+        android:layout_alignEnd="@+id/iv_background_global_rank"
+        android:layout_marginStart="@dimen/_5dp"
+        android:layout_marginTop="@dimen/_5dp"
+        android:layout_marginEnd="@dimen/_10dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/tv_no8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/view8"
+        android:layout_below="@id/view7"
+        android:layout_marginStart="@dimen/_47dp"
+        android:layout_marginTop="@dimen/_20dp"
+        android:layout_marginBottom="@dimen/_20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/_8"
+        android:textColor="#C4C4C4"
+        android:textSize="@dimen/_22sp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_zoey_brooks"
+        android:layout_width="@dimen/_60dp"
+        android:layout_height="@dimen/_60dp"
+        android:layout_below="@id/view7"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:layout_toEndOf="@id/tv_no1"
+        android:src="@drawable/zoey_brooks" />
+
+    <TextView
+        android:id="@+id/tv_zoey_brooks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view7"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:layout_toEndOf="@+id/iv_zoey_brooks"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Zoey Brooks"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_22sp" />
+
+    <TextView
+        android:id="@+id/tv_time_zoey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_zoey_brooks"
+        android:layout_alignStart="@+id/tv_vina_gracia"
+        android:layout_alignEnd="@+id/tv_vina_gracia"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/time_zoey" />
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="@dimen/_380dp"
+        android:layout_height="@dimen/_1dp"
+        android:layout_below="@id/iv_zoey_brooks"
+        android:layout_alignStart="@+id/iv_background_global_rank"
+        android:layout_alignEnd="@+id/iv_background_global_rank"
+        android:layout_marginStart="@dimen/_5dp"
+        android:layout_marginTop="@dimen/_5dp"
+        android:layout_marginEnd="@dimen/_10dp"
+        android:background="@android:color/darker_gray" />
 
 </RelativeLayout>
