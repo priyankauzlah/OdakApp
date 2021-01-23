@@ -108,4 +108,8 @@
     <string name="time_taylor">04:00:00</string>
     <string name="_8">#8</string>
     <string name="time_zoey">03:30:00</string>
+    <string name="txt_07_15am_07_45am">07:15am - 07:45am</string>
+    <string name="_00_15_00_2">-00:15:00</string>
+    <string name="don_t_give_up">Don’t give up!</string>
+    <string name="_00_15_00">00:15:00</string>
 </resources>
