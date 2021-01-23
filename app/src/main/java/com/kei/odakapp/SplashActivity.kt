@@ -17,7 +17,7 @@ class SplashActivity : AppCompatActivity() {
         Handler().postDelayed({
             startActivity(
                 Intent(this,
-                    MainActivity::class.java)
+                    FirstOnboardingActivity::class.java)
             )
             finish()
         }, SPLASH_TIME_OUT)
