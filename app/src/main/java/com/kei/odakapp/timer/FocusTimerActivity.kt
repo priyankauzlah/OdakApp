@@ -1,7 +1,8 @@
-package com.kei.odakapp
+package com.kei.odakapp.timer
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.kei.odakapp.R
 
 class FocusTimerActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

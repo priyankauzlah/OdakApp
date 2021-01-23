@@ -1,9 +1,11 @@
-package com.kei.odakapp
+package com.kei.odakapp.auth.login
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_first_onboarding.*
+import com.kei.odakapp.MainActivity
+import com.kei.odakapp.R
+import com.kei.odakapp.auth.register.RegisterActivity
 import kotlinx.android.synthetic.main.activity_login.*
 
 class LoginActivity : AppCompatActivity() {

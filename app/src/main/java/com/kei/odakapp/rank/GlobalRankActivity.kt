@@ -1,12 +1,13 @@
-package com.kei.odakapp
+package com.kei.odakapp.rank
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.kei.odakapp.R
 
-class MentorActivity : AppCompatActivity() {
+class GlobalRankActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_mentor)
+        setContentView(R.layout.activity_global_rank)
 
         supportActionBar?.hide()
     }

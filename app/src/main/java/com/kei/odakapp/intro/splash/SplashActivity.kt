@@ -1,9 +1,11 @@
-package com.kei.odakapp
+package com.kei.odakapp.intro.splash
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import com.kei.odakapp.R
+import com.kei.odakapp.intro.onboard.FirstOnboardingActivity
 
 class SplashActivity : AppCompatActivity() {
     private val SPLASH_TIME_OUT:Long = 4000
