@@ -71,7 +71,6 @@
     <string name="txt_search_hint">Search for people or subject</string>
     <string name="txt_claire_clark">Claire Clark</string>
     <string name="txt_biology">Biology</string>
-
     <string name="txtjordan_wilson">Jordan Wilson</string>
     <string name="txt_history">History</string>
     <string name="txt_abigail_smith">Abigail Smith</string>
@@ -109,6 +108,4 @@
     <string name="time_taylor">04:00:00</string>
     <string name="_8">#8</string>
     <string name="time_zoey">03:30:00</string>
-    <string name="txt_07_15am_07_45am">07:15am - 07:45am</string>
-    <string name="txt_let_s_start">Let\'s Start</string>
 </resources>

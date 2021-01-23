@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/focus_timer_background"
+    tools:context=".FocusTimerActivity">
+
+    <ImageView
+        android:layout_width="@dimen/_50dp"
+        android:layout_height="@dimen/_50dp"
+        android:layout_marginStart="@dimen/_16dp"
+        android:layout_marginTop="@dimen/_25dp"
+        android:src="@drawable/ic_left_arrow" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_focus_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/timer" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+
+                <TextView
+                    android:id="@+id/tv_focus_timer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/_00_15_00"
+                    android:textColor="@color/main_color"
+                    android:textSize="@dimen/_35sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_focus_timer"
+                    android:layout_marginStart="@dimen/_60dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/_00_15_00_2"
+                    android:textColor="@color/main_color"
+                    android:textSize="@dimen/_18sp" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/don_t_give_up"
+            android:textColor="@color/main_color"
+            android:textSize="@dimen/_22sp" />
+
+        <ImageButton
+            android:layout_width="@dimen/_50dp"
+            android:layout_height="@dimen/_50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_25dp"
+            android:background="@drawable/button_round"
+            android:backgroundTint="@color/main_color"
+            android:src="@drawable/ic_play" />
+
+    </LinearLayout>
+
+</RelativeLayout>
