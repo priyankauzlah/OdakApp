@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddTaskActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_add_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_rectangle_small">
+
+        <TextView
+            android:id="@+id/tv_add_task"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_5dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/add_task_for"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_add_task"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/text_date"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sp" />
+
+        <ImageView
+            android:id="@+id/iv_arrow_back_mentor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/_10dp"
+            android:src="@drawable/arrow_back" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_add_task"
+        android:layout_marginStart="@dimen/_16dp"
+        android:layout_marginTop="@dimen/_20dp"
+        android:layout_marginEnd="@dimen/_16dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_add_biology"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20dp"
+            android:background="@drawable/edit_text_background"
+            android:padding="@dimen/_10dp">
+
+            <TextView
+                android:id="@+id/add_biology"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_16dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/txt_biology_class"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/add_biology"
+                android:layout_marginStart="@dimen/_16dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/_07_20_am_07_45_am"
+                android:textSize="@dimen/_11sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/_16dp"
+                android:src="@drawable/ic_trash" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_add_math"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20dp"
+            android:background="@drawable/edit_text_background"
+            android:padding="@dimen/_10dp">
+
+            <TextView
+                android:id="@+id/add_math"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_16dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/txt_math_exam"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/add_math"
+                android:layout_marginStart="@dimen/_16dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/_10_00_am_11_30_am"
+                android:textSize="@dimen/_11sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/_16dp"
+                android:src="@drawable/ic_trash" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_add_physic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20dp"
+            android:background="@drawable/edit_text_background"
+            android:padding="@dimen/_10dp">
+
+            <TextView
+                android:id="@+id/add_physic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_16dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/txt_physic_class"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/add_physic"
+                android:layout_marginStart="@dimen/_16dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/_02_30_pm_03_00_pm"
+                android:textSize="@dimen/_11sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/_16dp"
+                android:src="@drawable/ic_trash" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20dp"
+            android:background="@drawable/edit_text_background"
+            android:padding="@dimen/_10dp">
+
+            <ImageButton
+                android:id="@+id/ib_add_task"
+                android:layout_width="@dimen/_40dp"
+                android:layout_height="@dimen/_40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/button_round"
+                android:backgroundTint="@color/main_color"
+                android:src="@drawable/ic_add" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/_16dp"
+                android:layout_toEndOf="@id/ib_add_task"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/add_new_task"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
