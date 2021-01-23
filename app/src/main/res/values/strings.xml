@@ -80,7 +80,6 @@
     <string name="txt_kennath_abraham">Kennath Abraham</string>
     <string name="txt_rachel_lee">Rachel Lee</string>
     <string name="txt_math">Math</string>
-
     <string name="txt_focus_timer">Focus Timer</string>
     <string name="txt_biology_class">Biology Class</string>
     <string name="text_timer">Timer</string>
@@ -112,4 +111,8 @@
     <string name="_00_15_00_2">-00:15:00</string>
     <string name="don_t_give_up">Don’t give up!</string>
     <string name="_00_15_00">00:15:00</string>
+    <string name="timer">Timer</string>
+    <string name="home">Home</string>
+    <string name="planner">Planner</string>
+    <string name="profile">Profile</string>
 </resources>
