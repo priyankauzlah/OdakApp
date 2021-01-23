@@ -23,5 +23,11 @@ class ChatFragment : Fragment() {
     }
 
     companion object {
+        fun newInstance() :ChatFragment {
+            val fragment = ChatFragment()
+            val args = Bundle()
+            fragment.arguments = args
+            return fragment
+        }
     }
 }

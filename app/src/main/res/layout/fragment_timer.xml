@@ -44,7 +44,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:fontFamily="@font/poppins_semibold"
-                android:text="@string/text_timer"
+                android:text="@string/txt_07_15am_07_45am"
                 android:textSize="@dimen/_20sp" />
 
             <TextView
@@ -52,7 +52,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:fontFamily="@font/poppins_semibold"
-                android:text="@string/text_duration"
+                android:text="@string/total_duration"
                 android:textColor="@color/main_color"
                 android:textSize="@dimen/_20sp" />
 
@@ -61,7 +61,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:fontFamily="@font/poppins_semibold"
-                android:text="@string/_30_minutes"
+                android:text="@string/text_duration"
                 android:textColor="@color/main_color"
                 android:textSize="@dimen/_20sp" />
 

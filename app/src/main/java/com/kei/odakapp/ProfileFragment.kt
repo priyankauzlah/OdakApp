@@ -26,6 +26,11 @@ class ProfileFragment : Fragment() {
     }
 
     companion object {
-
+        fun newInstance() :ProfileFragment {
+            val fragment = ProfileFragment()
+            val args = Bundle()
+            fragment.arguments = args
+            return fragment
+        }
     }
 }

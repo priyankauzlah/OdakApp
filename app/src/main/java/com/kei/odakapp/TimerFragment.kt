@@ -23,6 +23,11 @@ class TimerFragment : Fragment() {
     }
 
     companion object {
-
+        fun newInstance() :TimerFragment {
+            val fragment = TimerFragment()
+            val args = Bundle()
+            fragment.arguments = args
+            return fragment
+        }
     }
 }

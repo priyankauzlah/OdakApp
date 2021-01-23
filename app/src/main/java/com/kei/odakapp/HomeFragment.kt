@@ -22,6 +22,11 @@ class HomeFragment : Fragment() {
     }
 
     companion object {
-
+        fun newInstance() :HomeFragment {
+            val fragment = HomeFragment()
+            val args = Bundle()
+            fragment.arguments = args
+            return fragment
+        }
     }
 }
