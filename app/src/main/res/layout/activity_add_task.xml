@@ -175,6 +175,7 @@
                 android:id="@+id/ib_add_task"
                 android:layout_width="@dimen/_40dp"
                 android:layout_height="@dimen/_40dp"
+                android:layout_marginStart="@dimen/_16dp"
                 android:layout_gravity="center_horizontal"
                 android:background="@drawable/button_round"
                 android:backgroundTint="@color/main_color"
