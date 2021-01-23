@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/focus_timer_background"
-    tools:context=".FocusTimerActivity">
+    tools:context=".timer.FocusTimerActivity">
 
     <ImageView
         android:layout_width="@dimen/_50dp"
