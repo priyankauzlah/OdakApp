@@ -115,4 +115,13 @@
     <string name="home">Home</string>
     <string name="planner">Planner</string>
     <string name="profile">Profile</string>
+    <string name="task_planner">Task Planner</string>
+    <string name="text_date">Thursday, 01 October 2020</string>
+    <string name="add_task_for">Add Task For</string>
+    <string name="_07_20_am_07_45_am">07:20 am - 07:45 am</string>
+    <string name="_10_00_am_11_30_am">10:00 am - 11:30 am</string>
+    <string name="txt_math_exam">Math Exam</string>
+    <string name="txt_physic_class">Physic Class</string>
+    <string name="_02_30_pm_03_00_pm">02:30 pm - 03:00 pm</string>
+    <string name="add_new_task">Add New Task</string>
 </resources>
