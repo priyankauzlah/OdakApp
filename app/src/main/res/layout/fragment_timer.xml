@@ -83,7 +83,6 @@
                 android:backgroundTint="@color/main_color"
                 android:src="@drawable/ic_play" />
 
-
         </LinearLayout>
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
