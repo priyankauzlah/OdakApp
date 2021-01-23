@@ -1,378 +1,384 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_color"
-    tools:context=".MentorActivity"
-    >
+    tools:context=".MentorActivity">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-    <RelativeLayout
-        android:id="@+id/rl_top_mentor"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <ImageView
-            android:id="@+id/iv_back_top_mentor"
+
+        <RelativeLayout
+            android:id="@+id/rl_top_mentor"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:src="@drawable/background_rectangle_small"
-            />
-        <TextView
-            android:id="@+id/tv_ask_mentor"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/txt_ask_mentor"
-            android:textSize="@dimen/_22sp"
-            android:textColor="@color/white"
-            android:fontFamily="@font/poppins_bold"
-            android:layout_centerInParent="true"
-            />
-        <ImageView
-            android:id="@+id/iv_arrow_back_mentor"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/arrow_back"
-            android:layout_centerVertical="true"
-            android:layout_marginStart="@dimen/_10dp"
-            />
-    </RelativeLayout>
-    <SearchView
-        android:id="@+id/sv_mentor"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/_40dp"
-        android:background="@drawable/search_background"
-        android:layout_marginTop="@dimen/_20dp"
-        android:layout_marginHorizontal="@dimen/_30dp"
-        android:iconifiedByDefault="false"
-        android:queryHint="@string/txt_search_hint"
-        />
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_back_top_mentor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/background_rectangle_small" />
+
+            <TextView
+                android:id="@+id/tv_ask_mentor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/poppins_bold"
+                android:text="@string/txt_ask_mentor"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_22sp" />
+
+            <ImageView
+                android:id="@+id/iv_arrow_back_mentor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/_10dp"
+                android:src="@drawable/arrow_back" />
+        </RelativeLayout>
+
+        <SearchView
+            android:id="@+id/sv_mentor"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40dp"
+            android:layout_marginHorizontal="@dimen/_30dp"
+            android:layout_marginTop="@dimen/_20dp"
+            android:background="@drawable/search_background"
+            android:iconifiedByDefault="false"
+            android:queryHint="@string/txt_search_hint" />
+
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/cv_claire_mentor"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_90dp"
-            app:cardCornerRadius="@dimen/_15dp"
-            app:strokeWidth="@dimen/_3dp"
-            app:strokeColor="@color/main_color"
-            android:layout_marginTop="@dimen/_20dp"
             android:layout_marginHorizontal="@dimen/_15dp"
-            >
+            android:layout_marginTop="@dimen/_20dp"
+            app:cardCornerRadius="@dimen/_15dp"
+            app:strokeColor="@color/main_color"
+            app:strokeWidth="@dimen/_3dp">
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
                 <ImageView
                     android:id="@+id/iv_online_one"
                     android:layout_width="@dimen/_20dp"
                     android:layout_height="20dp"
-                    android:src="@drawable/online_icon"
                     android:layout_centerVertical="true"
                     android:layout_marginStart="@dimen/_20dp"
-                    />
+                    android:src="@drawable/online_icon" />
+
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/iv_claire_mentor"
                     android:layout_width="@dimen/_60dp"
                     android:layout_height="@dimen/_60dp"
-                    android:src="@drawable/claire_clark"
-                    android:layout_toEndOf="@id/iv_online_one"
                     android:layout_centerVertical="true"
                     android:layout_marginStart="@dimen/_15dp"
-                    />
+                    android:layout_toEndOf="@id/iv_online_one"
+                    android:src="@drawable/claire_clark" />
+
                 <TextView
                     android:id="@+id/tv_claire_mentor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/txt_claire_clark"
-                    android:textSize="@dimen/_18sp"
-                    android:layout_toEndOf="@id/iv_claire_mentor"
-                    android:layout_marginTop="@dimen/_20dp"
-                    android:fontFamily="@font/poppins_semibold"
                     android:layout_marginStart="@dimen/_10dp"
+                    android:layout_marginTop="@dimen/_20dp"
+                    android:layout_toEndOf="@id/iv_claire_mentor"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/txt_claire_clark"
                     android:textColor="@color/black"
-                    />
+                    android:textSize="@dimen/_18sp" />
+
                 <TextView
                     android:id="@+id/tv_class_claire_profile"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/txt_biology"
-                    android:textSize="@dimen/_16sp"
+                    android:layout_below="@id/tv_claire_mentor"
                     android:layout_marginStart="@dimen/_10dp"
                     android:layout_toEndOf="@id/iv_claire_mentor"
-                    android:layout_below="@id/tv_claire_mentor"
-                    />
+                    android:text="@string/txt_biology"
+                    android:textSize="@dimen/_16sp" />
             </RelativeLayout>
         </com.google.android.material.card.MaterialCardView>
+
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/cv_jordan_mentor"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_90dp"
-            app:cardCornerRadius="@dimen/_15dp"
-            app:strokeWidth="@dimen/_3dp"
-            app:strokeColor="@color/main_color"
-            android:layout_marginTop="@dimen/_20dp"
             android:layout_marginHorizontal="@dimen/_15dp"
-            >
+            android:layout_marginTop="@dimen/_20dp"
+            app:cardCornerRadius="@dimen/_15dp"
+            app:strokeColor="@color/main_color"
+            app:strokeWidth="@dimen/_3dp">
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
                 <ImageView
                     android:id="@+id/iv_offline_one"
                     android:layout_width="@dimen/_20dp"
                     android:layout_height="20dp"
-                    android:src="@drawable/offline_icon"
                     android:layout_centerVertical="true"
                     android:layout_marginStart="@dimen/_20dp"
-                    />
+                    android:src="@drawable/offline_icon" />
+
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/iv_jordan_mentor"
                     android:layout_width="@dimen/_60dp"
                     android:layout_height="@dimen/_60dp"
-                    android:src="@drawable/jordan_wilson"
-                    android:layout_toEndOf="@id/iv_offline_one"
                     android:layout_centerVertical="true"
                     android:layout_marginStart="@dimen/_15dp"
-                    />
+                    android:layout_toEndOf="@id/iv_offline_one"
+                    android:src="@drawable/jordan_wilson" />
+
                 <TextView
                     android:id="@+id/tv_jordan_mentor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/txtjordan_wilson"
-                    android:textSize="@dimen/_18sp"
-                    android:layout_toEndOf="@id/iv_jordan_mentor"
-                    android:layout_marginTop="@dimen/_20dp"
-                    android:fontFamily="@font/poppins_semibold"
                     android:layout_marginStart="@dimen/_10dp"
+                    android:layout_marginTop="@dimen/_20dp"
+                    android:layout_toEndOf="@id/iv_jordan_mentor"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/txtjordan_wilson"
                     android:textColor="@color/black"
-                    />
+                    android:textSize="@dimen/_18sp" />
+
                 <TextView
                     android:id="@+id/tv_class_jordan_profile"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/txt_history"
-                    android:textSize="@dimen/_16sp"
+                    android:layout_below="@id/tv_jordan_mentor"
                     android:layout_marginStart="@dimen/_10dp"
                     android:layout_toEndOf="@id/iv_jordan_mentor"
-                    android:layout_below="@id/tv_jordan_mentor"
-                    />
+                    android:text="@string/txt_history"
+                    android:textSize="@dimen/_16sp" />
             </RelativeLayout>
         </com.google.android.material.card.MaterialCardView>
+
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/cv_abigail_mentor"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_90dp"
-            app:cardCornerRadius="@dimen/_15dp"
-            app:strokeWidth="@dimen/_3dp"
-            app:strokeColor="@color/main_color"
-            android:layout_marginTop="@dimen/_20dp"
             android:layout_marginHorizontal="@dimen/_15dp"
-            >
+            android:layout_marginTop="@dimen/_20dp"
+            app:cardCornerRadius="@dimen/_15dp"
+            app:strokeColor="@color/main_color"
+            app:strokeWidth="@dimen/_3dp">
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
                 <ImageView
                     android:id="@+id/iv_offline_two"
                     android:layout_width="@dimen/_20dp"
                     android:layout_height="20dp"
-                    android:src="@drawable/offline_icon"
                     android:layout_centerVertical="true"
                     android:layout_marginStart="@dimen/_20dp"
-                    />
+                    android:src="@drawable/offline_icon" />
+
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/iv_abigail_mentor"
                     android:layout_width="@dimen/_60dp"
                     android:layout_height="@dimen/_60dp"
-                    android:src="@drawable/abgail_smith"
-                    android:layout_toEndOf="@id/iv_offline_two"
                     android:layout_centerVertical="true"
                     android:layout_marginStart="@dimen/_15dp"
-                    />
+                    android:layout_toEndOf="@id/iv_offline_two"
+                    android:src="@drawable/abgail_smith" />
+
                 <TextView
                     android:id="@+id/tv_abigail_mentor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/txt_abigail_smith"
-                    android:textSize="@dimen/_18sp"
-                    android:layout_toEndOf="@id/iv_abigail_mentor"
-                    android:layout_marginTop="@dimen/_20dp"
-                    android:fontFamily="@font/poppins_semibold"
                     android:layout_marginStart="@dimen/_10dp"
+                    android:layout_marginTop="@dimen/_20dp"
+                    android:layout_toEndOf="@id/iv_abigail_mentor"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/txt_abigail_smith"
                     android:textColor="@color/black"
-                    />
+                    android:textSize="@dimen/_18sp" />
+
                 <TextView
                     android:id="@+id/tv_class_abigail_profile"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/txt_economy"
-                    android:textSize="@dimen/_16sp"
+                    android:layout_below="@id/tv_abigail_mentor"
                     android:layout_marginStart="@dimen/_10dp"
                     android:layout_toEndOf="@id/iv_abigail_mentor"
-                    android:layout_below="@id/tv_abigail_mentor"
-                    />
+                    android:text="@string/txt_economy"
+                    android:textSize="@dimen/_16sp" />
             </RelativeLayout>
         </com.google.android.material.card.MaterialCardView>
+
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/cv_sharon_mentor"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_90dp"
-            app:cardCornerRadius="@dimen/_15dp"
-            app:strokeWidth="@dimen/_3dp"
-            app:strokeColor="@color/main_color"
-            android:layout_marginTop="@dimen/_20dp"
             android:layout_marginHorizontal="@dimen/_15dp"
-            >
+            android:layout_marginTop="@dimen/_20dp"
+            app:cardCornerRadius="@dimen/_15dp"
+            app:strokeColor="@color/main_color"
+            app:strokeWidth="@dimen/_3dp">
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
                 <ImageView
                     android:id="@+id/iv_offline_three"
                     android:layout_width="@dimen/_20dp"
                     android:layout_height="20dp"
-                    android:src="@drawable/offline_icon"
                     android:layout_centerVertical="true"
                     android:layout_marginStart="@dimen/_20dp"
-                    />
+                    android:src="@drawable/offline_icon" />
+
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/iv_sharon_mentor"
                     android:layout_width="@dimen/_60dp"
                     android:layout_height="@dimen/_60dp"
-                    android:src="@drawable/claire_clark"
-                    android:layout_toEndOf="@id/iv_offline_three"
                     android:layout_centerVertical="true"
                     android:layout_marginStart="@dimen/_15dp"
-                    />
+                    android:layout_toEndOf="@id/iv_offline_three"
+                    android:src="@drawable/claire_clark" />
+
                 <TextView
                     android:id="@+id/tv_sharon_mentor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/txt_claire_clark"
-                    android:textSize="@dimen/_18sp"
-                    android:layout_toEndOf="@id/iv_sharon_mentor"
-                    android:layout_marginTop="@dimen/_20dp"
-                    android:fontFamily="@font/poppins_semibold"
                     android:layout_marginStart="@dimen/_10dp"
+                    android:layout_marginTop="@dimen/_20dp"
+                    android:layout_toEndOf="@id/iv_sharon_mentor"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/txt_claire_clark"
                     android:textColor="@color/black"
-                    />
+                    android:textSize="@dimen/_18sp" />
+
                 <TextView
                     android:id="@+id/tv_class_sharon_profile"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/txt_physic"
-                    android:textSize="@dimen/_16sp"
+                    android:layout_below="@id/tv_sharon_mentor"
                     android:layout_marginStart="@dimen/_10dp"
                     android:layout_toEndOf="@id/iv_sharon_mentor"
-                    android:layout_below="@id/tv_sharon_mentor"
-                    />
+                    android:text="@string/txt_physic"
+                    android:textSize="@dimen/_16sp" />
             </RelativeLayout>
         </com.google.android.material.card.MaterialCardView>
+
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/cv_kennath_mentor"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_90dp"
-            app:cardCornerRadius="@dimen/_15dp"
-            app:strokeWidth="@dimen/_3dp"
-            app:strokeColor="@color/main_color"
-            android:layout_marginTop="@dimen/_20dp"
             android:layout_marginHorizontal="@dimen/_15dp"
-            >
+            android:layout_marginTop="@dimen/_20dp"
+            app:cardCornerRadius="@dimen/_15dp"
+            app:strokeColor="@color/main_color"
+            app:strokeWidth="@dimen/_3dp">
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
                 <ImageView
                     android:id="@+id/iv_online_two"
                     android:layout_width="@dimen/_20dp"
                     android:layout_height="20dp"
-                    android:src="@drawable/online_icon"
                     android:layout_centerVertical="true"
                     android:layout_marginStart="@dimen/_20dp"
-                    />
+                    android:src="@drawable/online_icon" />
+
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/iv_kennath_mentor"
                     android:layout_width="@dimen/_60dp"
                     android:layout_height="@dimen/_60dp"
-                    android:src="@drawable/kennath_abraham"
-                    android:layout_toEndOf="@id/iv_online_two"
                     android:layout_centerVertical="true"
                     android:layout_marginStart="@dimen/_15dp"
-                    />
+                    android:layout_toEndOf="@id/iv_online_two"
+                    android:src="@drawable/kennath_abraham" />
+
                 <TextView
                     android:id="@+id/tv_kennath_mentor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/txt_kennath_abraham"
-                    android:textSize="@dimen/_18sp"
-                    android:layout_toEndOf="@id/iv_kennath_mentor"
-                    android:layout_marginTop="@dimen/_20dp"
-                    android:fontFamily="@font/poppins_semibold"
                     android:layout_marginStart="@dimen/_10dp"
+                    android:layout_marginTop="@dimen/_20dp"
+                    android:layout_toEndOf="@id/iv_kennath_mentor"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/txt_kennath_abraham"
                     android:textColor="@color/black"
-                    />
+                    android:textSize="@dimen/_18sp" />
+
                 <TextView
                     android:id="@+id/tv_class_kennath_profile"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/txt_geography"
-                    android:textSize="@dimen/_16sp"
+                    android:layout_below="@id/tv_kennath_mentor"
                     android:layout_marginStart="@dimen/_10dp"
                     android:layout_toEndOf="@id/iv_kennath_mentor"
-                    android:layout_below="@id/tv_kennath_mentor"
-                    />
+                    android:text="@string/txt_geography"
+                    android:textSize="@dimen/_16sp" />
             </RelativeLayout>
         </com.google.android.material.card.MaterialCardView>
+
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/cv_rachel_mentor"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_90dp"
-            app:cardCornerRadius="@dimen/_15dp"
-            app:strokeWidth="@dimen/_3dp"
-            app:strokeColor="@color/main_color"
-            android:layout_marginTop="@dimen/_20dp"
             android:layout_marginHorizontal="@dimen/_15dp"
-            >
+            android:layout_marginTop="@dimen/_20dp"
+            app:cardCornerRadius="@dimen/_15dp"
+            app:strokeColor="@color/main_color"
+            app:strokeWidth="@dimen/_3dp">
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
                 <ImageView
                     android:id="@+id/iv_online_three"
                     android:layout_width="@dimen/_20dp"
                     android:layout_height="20dp"
-                    android:src="@drawable/online_icon"
                     android:layout_centerVertical="true"
                     android:layout_marginStart="@dimen/_20dp"
-                    />
+                    android:src="@drawable/online_icon" />
+
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/iv_rachel_mentor"
                     android:layout_width="@dimen/_60dp"
                     android:layout_height="@dimen/_60dp"
-                    android:src="@drawable/rachel_lee"
-                    android:layout_toEndOf="@id/iv_online_three"
                     android:layout_centerVertical="true"
                     android:layout_marginStart="@dimen/_15dp"
-                    />
+                    android:layout_toEndOf="@id/iv_online_three"
+                    android:src="@drawable/rachel_lee" />
+
                 <TextView
                     android:id="@+id/tv_rachel_mentor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/txt_rachel_lee"
-                    android:textSize="@dimen/_18sp"
-                    android:layout_toEndOf="@id/iv_rachel_mentor"
-                    android:layout_marginTop="@dimen/_20dp"
-                    android:fontFamily="@font/poppins_semibold"
                     android:layout_marginStart="@dimen/_10dp"
+                    android:layout_marginTop="@dimen/_20dp"
+                    android:layout_toEndOf="@id/iv_rachel_mentor"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/txt_rachel_lee"
                     android:textColor="@color/black"
-                    />
+                    android:textSize="@dimen/_18sp" />
+
                 <TextView
                     android:id="@+id/tv_class_rachel_profile"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/txt_math"
-                    android:textSize="@dimen/_16sp"
+                    android:layout_below="@id/tv_rachel_mentor"
                     android:layout_marginStart="@dimen/_10dp"
                     android:layout_toEndOf="@id/iv_rachel_mentor"
-                    android:layout_below="@id/tv_rachel_mentor"
-                    />
+                    android:text="@string/txt_math"
+                    android:textSize="@dimen/_16sp" />
             </RelativeLayout>
         </com.google.android.material.card.MaterialCardView>
     </LinearLayout>
