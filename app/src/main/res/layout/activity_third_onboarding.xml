@@ -7,7 +7,7 @@
     android:background="@drawable/onboarding_3"
     android:orientation="vertical"
     android:padding="@dimen/_20dp"
-    tools:context=".ThirdOnboardingActivity">
+    tools:context=".intro.onboard.ThirdOnboardingActivity">
 
     <ImageView
         android:id="@+id/iv_third_onboarding"

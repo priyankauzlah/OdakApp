@@ -1,15 +1,13 @@
-package com.kei.odakapp
+package com.kei.odakapp.timer
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.kei.odakapp.R
 
-
-class PlannerFragment : Fragment() {
-
-
+class TimerFragment : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
@@ -22,10 +20,15 @@ class PlannerFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_planner, container, false)
+        return inflater.inflate(R.layout.fragment_timer, container, false)
     }
 
     companion object {
-
+        fun newInstance() : TimerFragment {
+            val fragment = TimerFragment()
+            val args = Bundle()
+            fragment.arguments = args
+            return fragment
+        }
     }
 }

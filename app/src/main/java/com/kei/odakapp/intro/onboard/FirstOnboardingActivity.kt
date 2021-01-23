@@ -1,8 +1,10 @@
-package com.kei.odakapp
+package com.kei.odakapp.intro.onboard
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.kei.odakapp.auth.login.LoginActivity
+import com.kei.odakapp.R
 import kotlinx.android.synthetic.main.activity_first_onboarding.*
 
 class FirstOnboardingActivity : AppCompatActivity() {

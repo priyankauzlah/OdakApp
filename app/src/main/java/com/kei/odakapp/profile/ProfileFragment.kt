@@ -1,10 +1,11 @@
-package com.kei.odakapp
+package com.kei.odakapp.profile
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.kei.odakapp.R
 
 
 class ProfileFragment : Fragment() {
@@ -26,7 +27,7 @@ class ProfileFragment : Fragment() {
     }
 
     companion object {
-        fun newInstance() :ProfileFragment {
+        fun newInstance() : ProfileFragment {
             val fragment = ProfileFragment()
             val args = Bundle()
             fragment.arguments = args
