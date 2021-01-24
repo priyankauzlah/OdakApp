@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -48,15 +48,6 @@
             android:textColor="@android:color/white"
             android:textSize="@dimen/_14sp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/tv_hi"
-            android:layout_toEndOf="@id/tv_last_log"
-            android:text="@string/last_log"
-            android:textColor="@android:color/white"
-            android:textSize="@dimen/_14sp" />
-
         <de.hdodenhof.circleimageview.CircleImageView
             android:layout_width="@dimen/_65dp"
             android:layout_height="@dimen/_65dp"
@@ -65,16 +56,38 @@
             android:layout_marginEnd="@dimen/_16dp"
             android:src="@drawable/image" />
 
+
+        <TextView
+            android:id="@+id/tv_mood_tracker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_last_log"
+            android:layout_marginStart="@dimen/_16dp"
+            android:layout_marginTop="@dimen/_16dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/mood_tracker"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16sp" />
+
+        <ImageView
+            android:id="@+id/iv_mood_tracker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_mood_tracker"
+            android:layout_marginStart="@dimen/_16dp"
+            android:src="@drawable/mood_tracker" />
+
+
         <TextView
             android:id="@+id/tv_statistics"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/tv_last_log"
+            android:layout_below="@id/iv_main_home"
             android:layout_marginStart="@dimen/_50dp"
-            android:layout_marginTop="@dimen/_20dp"
+            android:layout_marginTop="@dimen/_16dp"
             android:fontFamily="@font/poppins_semibold"
             android:text="@string/weekly_statistics"
-            android:textColor="@android:color/white"
+            android:textColor="@color/black"
             android:textSize="@dimen/_16sp" />
 
         <ImageView
@@ -90,7 +103,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/iv_statistics"
             android:layout_marginStart="@dimen/_50dp"
-            android:layout_marginTop="@dimen/_20dp"
+            android:layout_marginTop="@dimen/_16dp"
             android:fontFamily="@font/poppins_semibold"
             android:text="@string/today_s_tasks"
             android:textColor="@android:color/black"
@@ -135,4 +148,4 @@
 
     </RelativeLayout>
 
-</FrameLayout>
+</ScrollView>
