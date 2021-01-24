@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.kei.odakapp.R
+import com.kei.odakapp.home.HomeFragment
 
 class ChatFragment : Fragment() {
 
