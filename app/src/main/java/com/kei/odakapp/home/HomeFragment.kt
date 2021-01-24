@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.kei.odakapp.R
+import com.kei.odakapp.mentor.MentorActivity
 import com.kei.odakapp.rank.GlobalRankActivity
 import kotlinx.android.synthetic.main.fragment_home.*
 
@@ -21,7 +22,17 @@ class HomeFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false)
+        val rootView: View = inflater.inflate(R.layout.fragment_home, container, false)
+
+        btn_rank.setOnClickListener {
+            val intent = Intent(context, GlobalRankActivity::class.java)
+            startActivity(intent)
+        }
+        btn_mentor.setOnClickListener {
+            val intent = Intent(context, MentorActivity::class.java)
+            startActivity(intent)
+        }
+        return rootView
     }
 
     companion object {

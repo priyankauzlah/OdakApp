@@ -135,6 +135,7 @@
                 android:textSize="@dimen/_14sp" />
 
             <Button
+                android:id="@+id/btn_mentor"
                 android:layout_width="@dimen/_145dp"
                 android:layout_height="@dimen/_40dp"
                 android:layout_marginStart="@dimen/_10dp"
