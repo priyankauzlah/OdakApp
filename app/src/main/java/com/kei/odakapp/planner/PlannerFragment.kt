@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.kei.odakapp.R
+import com.kei.odakapp.home.HomeFragment
 
 
 class PlannerFragment : Fragment() {
@@ -27,6 +28,11 @@ class PlannerFragment : Fragment() {
     }
 
     companion object {
-
+        fun newInstance() : PlannerFragment {
+            val fragment = PlannerFragment()
+            val args = Bundle()
+            fragment.arguments = args
+            return fragment
+        }
     }
 }

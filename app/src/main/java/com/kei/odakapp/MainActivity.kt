@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.kei.odakapp.chat.ChatFragment
 import com.kei.odakapp.home.HomeFragment
+import com.kei.odakapp.planner.PlannerFragment
 import com.kei.odakapp.profile.ProfileFragment
 import com.kei.odakapp.timer.TimerFragment
 import kotlinx.android.synthetic.main.activity_main.*
@@ -25,6 +26,11 @@ class MainActivity : AppCompatActivity() {
             }
             R.id.navigation_timer -> {
                 val fragment = TimerFragment()
+                implementFragment(fragment)
+                return@OnNavigationItemSelectedListener  true
+            }
+            R.id.navigation_planner -> {
+                val fragment = PlannerFragment()
                 implementFragment(fragment)
                 return@OnNavigationItemSelectedListener  true
             }

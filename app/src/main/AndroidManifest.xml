@@ -11,6 +11,8 @@
         android:theme="@style/Theme.OdakApp">
         <activity android:name=".task.AddTaskActivity" />
         <activity android:name=".intro.onboard.FirstOnboardingActivity" />
+        <activity android:name=".intro.onboard.SecondOnboardingActivity" />
+        <activity android:name=".intro.onboard.ThirdOnboardingActivity" />
         <activity android:name=".auth.register.RegisterActivity" />
         <activity android:name=".auth.login.LoginActivity" />
         <activity android:name=".MainActivity" />

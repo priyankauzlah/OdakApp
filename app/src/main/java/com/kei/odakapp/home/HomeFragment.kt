@@ -17,7 +17,6 @@ class HomeFragment : Fragment() {
         arguments?.let {
 
         }
-        
     }
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
