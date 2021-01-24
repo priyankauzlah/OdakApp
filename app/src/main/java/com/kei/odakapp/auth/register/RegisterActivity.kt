@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.kei.odakapp.MainActivity
 import com.kei.odakapp.R
+import com.kei.odakapp.auth.login.LoginActivity
 import com.kei.odakapp.intro.onboard.SecondOnboardingActivity
 import kotlinx.android.synthetic.main.activity_register.*
 
@@ -19,7 +20,7 @@ class RegisterActivity : AppCompatActivity() {
             startActivity(moveActivityIntent)
         }
         tv_login_register.setOnClickListener {
-            val moveActivityIntent = Intent(this, SecondOnboardingActivity::class.java)
+            val moveActivityIntent = Intent(this, LoginActivity::class.java)
             startActivity(moveActivityIntent)
         }
     }
