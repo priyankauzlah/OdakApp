@@ -46,11 +46,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         supportActionBar?.hide()
+        home_nav.selectedItemId = R.id.navigation_home
         home_nav.setOnNavigationItemSelectedListener (mOnNavigationItemSelectedListener)
         val fragment = HomeFragment.newInstance()
         implementFragment(fragment)
     }
-    private fun implementFragment (fragment: Fragment){
+    fun implementFragment (fragment: Fragment){
         supportFragmentManager.beginTransaction().replace(R.id.content_main, fragment, fragment.javaClass.simpleName)
             .commit()
     }

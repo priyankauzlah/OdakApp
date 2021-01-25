@@ -9,6 +9,7 @@ class FocusTimerActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_focus_timer)
 
-        supportActionBar?.hide()
+        //supportActionBar?.hide()
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
 }

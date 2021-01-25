@@ -349,11 +349,7 @@
                     android:text="@string/_08_15"
                     android:textColor="@color/black"
                     android:textSize="@dimen/_13sp" />
-
             </RelativeLayout>
-
         </LinearLayout>
-
     </LinearLayout>
-
 </FrameLayout>

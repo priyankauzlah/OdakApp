@@ -16,7 +16,6 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             app:itemIconTint="@color/main_color"
-            app:labelVisibilityMode="unlabeled"
             app:menu="@menu/bottom_navigation" />
 
 </RelativeLayout>

@@ -9,6 +9,7 @@ class ChatActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_chat)
 
-        supportActionBar?.hide()
+        //supportActionBar?.hide()
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
 }

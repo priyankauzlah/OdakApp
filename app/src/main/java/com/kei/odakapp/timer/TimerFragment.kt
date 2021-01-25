@@ -7,37 +7,29 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.kei.odakapp.R
-import com.kei.odakapp.rank.GlobalRankActivity
-import kotlinx.android.synthetic.main.fragment_timer.*
+import kotlinx.android.synthetic.main.fragment_timer.view.*
 
 class TimerFragment : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
-
         }
     }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
+        savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        val rootView: View = inflater.inflate(R.layout.fragment_timer, container, false)
+        val view = inflater.inflate(R.layout.fragment_timer, container, false)
 
-        btn_timer.setOnClickListener {
+        view.btn_timer.setOnClickListener {
             val intent = Intent(context, FocusTimerActivity::class.java)
             startActivity(intent)
         }
-        return rootView
+        return view
     }
 
     companion object {
-        fun newInstance() : TimerFragment {
-            val fragment = TimerFragment()
-            val args = Bundle()
-            fragment.arguments = args
-            return fragment
-        }
+
     }
 }

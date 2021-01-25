@@ -12,6 +12,7 @@ import com.kei.odakapp.rank.GlobalRankActivity
 import com.kei.odakapp.task.AddTaskActivity
 import kotlinx.android.synthetic.main.fragment_home.*
 import kotlinx.android.synthetic.main.fragment_planner.*
+import kotlinx.android.synthetic.main.fragment_planner.view.*
 
 
 class PlannerFragment : Fragment() {
@@ -29,21 +30,16 @@ class PlannerFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val rootView: View = inflater.inflate(R.layout.fragment_planner, container, false)
+        val view = inflater.inflate(R.layout.fragment_planner, container, false)
 
-        fab_add.setOnClickListener {
+        view.fab_add.setOnClickListener {
             val intent = Intent(context, AddTaskActivity::class.java)
             startActivity(intent)
         }
-        return rootView
+        return view
     }
 
     companion object {
-        fun newInstance() : PlannerFragment {
-            val fragment = PlannerFragment()
-            val args = Bundle()
-            fragment.arguments = args
-            return fragment
-        }
+
     }
 }

@@ -9,6 +9,7 @@ class GlobalRankActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_global_rank)
 
-        supportActionBar?.hide()
+        //supportActionBar?.hide()
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
 }
