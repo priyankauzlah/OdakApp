@@ -125,4 +125,6 @@
     <string name="_02_30_pm_03_00_pm">02:30 pm - 03:00 pm</string>
     <string name="add_new_task">Add New Task</string>
     <string name="mood_tracker">Mood Tracker</string>
+    <string name="txt_imageview">ImageView</string>
+    <string name="txt_imagebutton">ImageButton</string>
 </resources>
