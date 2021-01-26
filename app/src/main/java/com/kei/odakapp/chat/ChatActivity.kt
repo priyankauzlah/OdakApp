@@ -12,4 +12,8 @@ class ChatActivity : AppCompatActivity() {
         //supportActionBar?.hide()
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return true
+    }
 }

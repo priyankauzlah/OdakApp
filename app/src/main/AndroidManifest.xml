@@ -15,9 +15,26 @@
         <activity android:name=".intro.onboard.ThirdOnboardingActivity" />
         <activity android:name=".auth.register.RegisterActivity" />
         <activity android:name=".auth.login.LoginActivity"/>
-        <activity android:name=".timer.FocusTimerActivity"/>
-        <activity android:name=".rank.GlobalRankActivity"/>
-        <activity android:name=".chat.ChatActivity"/>
+        <activity android:name=".timer.FocusTimerActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".rank.GlobalRankActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".chat.ChatActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".mentor.MentorActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <activity android:name=".MainActivity" />
         <activity android:name="com.kei.odakapp.intro.splash.SplashActivity">
             <intent-filter>
