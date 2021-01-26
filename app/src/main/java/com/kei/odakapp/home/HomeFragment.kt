@@ -9,7 +9,6 @@ import android.view.ViewGroup
 import com.kei.odakapp.R
 import com.kei.odakapp.mentor.MentorActivity
 import com.kei.odakapp.rank.GlobalRankActivity
-import kotlinx.android.synthetic.main.fragment_home.*
 import kotlinx.android.synthetic.main.fragment_home.view.*
 
 class HomeFragment : Fragment() {

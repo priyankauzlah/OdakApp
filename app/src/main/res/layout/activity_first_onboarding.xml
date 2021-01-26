@@ -20,6 +20,7 @@
         android:layout_marginStart="@dimen/_40dp"
         android:layout_marginTop="@dimen/_40dp"
         android:layout_marginEnd="@dimen/_40dp"
+        android:contentDescription="@string/txt_imageview"
         android:src="@drawable/vector_1" />
 
     <TextView
@@ -90,17 +91,16 @@
         android:textSize="@dimen/_18sp" />
 
     <Button
+        android:id="@+id/btn_next_1"
         android:layout_width="@dimen/_108dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="@dimen/_246dp"
-        android:id="@+id/btn_next_1"
         android:layout_toEndOf="@+id/tv_skip_1"
         android:background="@drawable/edit_text_background"
         android:text="@string/next"
         android:textAllCaps="false"
         android:textSize="@dimen/_16sp" />
-
 
 </RelativeLayout>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -61,7 +60,8 @@
                 android:fontFamily="@font/poppins_semibold"
                 android:text="@string/txt_biology_class"
                 android:textColor="@color/black"
-                android:textSize="@dimen/_18sp" />
+                android:textSize="@dimen/_18sp"
+                tools:ignore="RelativeOverlap" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -78,6 +78,7 @@
                 android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
                 android:layout_marginEnd="@dimen/_16dp"
+                android:contentDescription="@string/txt_imageview"
                 android:src="@drawable/ic_trash" />
 
         </RelativeLayout>
@@ -98,7 +99,8 @@
                 android:fontFamily="@font/poppins_semibold"
                 android:text="@string/txt_math_exam"
                 android:textColor="@color/black"
-                android:textSize="@dimen/_18sp" />
+                android:textSize="@dimen/_18sp"
+                tools:ignore="RelativeOverlap" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -115,6 +117,7 @@
                 android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
                 android:layout_marginEnd="@dimen/_16dp"
+                android:contentDescription="@string/txt_imageview"
                 android:src="@drawable/ic_trash" />
 
         </RelativeLayout>
@@ -135,7 +138,8 @@
                 android:fontFamily="@font/poppins_semibold"
                 android:text="@string/txt_physic_class"
                 android:textColor="@color/black"
-                android:textSize="@dimen/_18sp" />
+                android:textSize="@dimen/_18sp"
+                tools:ignore="RelativeOverlap" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -152,6 +156,7 @@
                 android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
                 android:layout_marginEnd="@dimen/_16dp"
+                android:contentDescription="@string/txt_imageview"
                 android:src="@drawable/ic_trash" />
 
         </RelativeLayout>
@@ -167,10 +172,11 @@
                 android:id="@+id/ib_add_task"
                 android:layout_width="@dimen/_40dp"
                 android:layout_height="@dimen/_40dp"
-                android:layout_marginStart="@dimen/_16dp"
                 android:layout_gravity="center_horizontal"
+                android:layout_marginStart="@dimen/_16dp"
                 android:background="@drawable/button_round"
                 android:backgroundTint="@color/main_color"
+                android:contentDescription="@string/txt_imagebutton"
                 android:src="@drawable/ic_add" />
 
             <TextView
