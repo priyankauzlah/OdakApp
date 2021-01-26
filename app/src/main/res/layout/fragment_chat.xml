@@ -187,7 +187,8 @@
                 android:fontFamily="@font/poppins_light"
                 android:text="@string/_08_50"
                 android:textColor="@color/black"
-                android:textSize="@dimen/_13sp" />
+                android:textSize="@dimen/_13sp"
+                tools:ignore="RelativeOverlap" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -245,7 +246,8 @@
                 android:fontFamily="@font/poppins_light"
                 android:text="@string/_08_48"
                 android:textColor="@color/black"
-                android:textSize="@dimen/_13sp" />
+                android:textSize="@dimen/_13sp"
+                tools:ignore="RelativeOverlap" />
 
         </RelativeLayout>
 
@@ -290,7 +292,8 @@
                 android:fontFamily="@font/poppins_light"
                 android:text="@string/_08_40"
                 android:textColor="@color/black"
-                android:textSize="@dimen/_13sp" />
+                android:textSize="@dimen/_13sp"
+                tools:ignore="RelativeOverlap" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -348,7 +351,11 @@
                 android:fontFamily="@font/poppins_light"
                 android:text="@string/_08_15"
                 android:textColor="@color/black"
-                android:textSize="@dimen/_13sp" />
+                android:textSize="@dimen/_13sp"
+                tools:ignore="RelativeOverlap" />
+
         </RelativeLayout>
+
     </LinearLayout>
+
 </LinearLayout>
