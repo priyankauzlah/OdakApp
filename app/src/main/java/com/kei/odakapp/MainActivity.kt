@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
         val fragment = HomeFragment.newInstance()
         implementFragment(fragment)
     }
-    fun implementFragment (fragment: Fragment){
+    private fun implementFragment (fragment: Fragment){
         supportFragmentManager.beginTransaction().replace(R.id.content_main, fragment, fragment.javaClass.simpleName)
             .commit()
     }
