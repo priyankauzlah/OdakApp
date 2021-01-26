@@ -127,4 +127,7 @@
     <string name="mood_tracker">Mood Tracker</string>
     <string name="txt_imageview">ImageView</string>
     <string name="txt_imagebutton">ImageButton</string>
+    <string name="zoey_brooks">Zoey Brooks</string>
+    <string name="txt_imagebutton">ImageButton</string>
+    <string name="txt_floatingactionbutton">FloatingActionButton</string>
 </resources>

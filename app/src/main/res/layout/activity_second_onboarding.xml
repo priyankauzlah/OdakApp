@@ -20,6 +20,7 @@
         android:layout_marginStart="@dimen/_45dp"
         android:layout_marginTop="@dimen/_45dp"
         android:layout_marginEnd="@dimen/_45dp"
+        android:contentDescription="@string/txt_imageview"
         android:src="@drawable/vector_2" />
 
     <TextView

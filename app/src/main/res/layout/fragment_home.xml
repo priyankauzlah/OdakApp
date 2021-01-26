@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,12 +8,13 @@
     <RelativeLayout
         android:id="@+id/rl_main_home"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <ImageView
             android:id="@+id/iv_main_home"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/txt_imageview"
             android:src="@drawable/home_fragment" />
 
         <TextView
@@ -36,7 +36,8 @@
             android:fontFamily="@font/poppins_semibold"
             android:text="@string/name"
             android:textColor="@android:color/white"
-            android:textSize="@dimen/_22sp" />
+            android:textSize="@dimen/_22sp"
+            tools:ignore="RelativeOverlap" />
 
         <TextView
             android:id="@+id/tv_last_log"
@@ -75,6 +76,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/tv_mood_tracker"
             android:layout_marginStart="@dimen/_16dp"
+            android:contentDescription="@string/txt_imageview"
             android:src="@drawable/mood_tracker" />
 
 
@@ -95,6 +97,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/tv_statistics"
+            android:contentDescription="@string/txt_imageview"
             android:src="@drawable/weekly_statistics" />
 
         <TextView
@@ -114,6 +117,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/tv_today"
+            android:contentDescription="@string/txt_imageview"
             android:src="@drawable/todays_task" />
 
         <LinearLayout
@@ -132,7 +136,8 @@
                 android:background="@drawable/button_radius"
                 android:text="@string/global_rank"
                 android:textAllCaps="false"
-                android:textSize="@dimen/_14sp" />
+                android:textSize="@dimen/_14sp"
+                tools:ignore="ButtonStyle" />
 
             <Button
                 android:id="@+id/btn_mentor"
@@ -142,7 +147,8 @@
                 android:background="@drawable/button_radius"
                 android:text="@string/ask_mentor"
                 android:textAllCaps="false"
-                android:textSize="@dimen/_14sp" />
+                android:textSize="@dimen/_14sp"
+                tools:ignore="ButtonStyle" />
 
         </LinearLayout>
 

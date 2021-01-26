@@ -1,355 +1,354 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".chat.ChatFragment">
+
+    <TextView
+        android:id="@+id/tv_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_rectangle_small"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="@string/chat"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_22sp" />
+
+    <EditText
+        android:id="@+id/et_search_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_35dp"
+        android:layout_marginTop="@dimen/_20dp"
+        android:layout_marginEnd="@dimen/_35dp"
+        android:autofillHints=""
+        android:background="@drawable/edit_text_background"
+        android:drawableStart="@drawable/ic_search"
+        android:drawablePadding="@dimen/_5dp"
+        android:hint="@string/search_for_people"
+        android:inputType="text"
+        android:padding="@dimen/_10dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/_16dp"
+        android:layout_marginTop="@dimen/_20dp"
+        android:layout_marginEnd="@dimen/_16dp"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/tv_profile"
+        <RelativeLayout
+            android:id="@+id/rl_taylor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/background_rectangle_small"
-            android:fontFamily="@font/poppins_bold"
-            android:gravity="center"
-            android:text="@string/chat"
-            android:textColor="@color/white"
-            android:textSize="@dimen/_22sp" />
-
-        <EditText
-            android:id="@+id/et_search_chat"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_35dp"
-            android:layout_marginTop="@dimen/_20dp"
-            android:layout_marginEnd="@dimen/_35dp"
+            android:layout_marginBottom="@dimen/_20dp"
             android:background="@drawable/edit_text_background"
-            android:drawableStart="@drawable/ic_search"
-            android:drawablePadding="@dimen/_5dp"
-            android:hint="@string/search_for_people"
-            android:padding="@dimen/_10dp" />
+            android:padding="@dimen/_10dp">
 
-        <LinearLayout
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_taylor_chat"
+                android:layout_width="@dimen/_50dp"
+                android:layout_height="@dimen/_50dp"
+                android:layout_marginEnd="@dimen/_10dp"
+                android:src="@drawable/taylor_lashae" />
+
+            <TextView
+                android:id="@+id/iv_taylor_chat_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/iv_taylor_chat"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/taylor_lashae"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_taylor_chat_name"
+                android:layout_toEndOf="@id/iv_taylor_chat"
+                android:fontFamily="@font/poppins_light"
+                android:text="@string/chat_taylor"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="@font/poppins_light"
+                android:text="@string/_09_20"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13sp"
+                tools:ignore="RelativeOverlap" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_taylor_chat_name"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/main_circle"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center"
+                android:text="@string/_1"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_10sp"
+                tools:ignore="SmallSp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginStart="@dimen/_16dp"
-            android:layout_marginTop="@dimen/_20dp"
-            android:layout_marginEnd="@dimen/_16dp"
-            android:orientation="vertical">
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20dp"
+            android:background="@drawable/edit_text_background"
+            android:padding="@dimen/_10dp">
 
-            <RelativeLayout
-                android:id="@+id/rl_taylor"
-                android:layout_width="match_parent"
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_lucas_chat"
+                android:layout_width="@dimen/_50dp"
+                android:layout_height="@dimen/_50dp"
+                android:layout_marginEnd="@dimen/_10dp"
+                android:src="@drawable/lucas_parker" />
+
+            <TextView
+                android:id="@+id/iv_lucas_chat_name"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/_20dp"
-                android:background="@drawable/edit_text_background"
-                android:padding="@dimen/_10dp">
+                android:layout_toEndOf="@id/iv_lucas_chat"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/lucas_parker"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sp" />
 
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/iv_taylor_chat"
-                    android:layout_width="@dimen/_50dp"
-                    android:layout_height="@dimen/_50dp"
-                    android:layout_marginEnd="@dimen/_10dp"
-                    android:src="@drawable/taylor_lashae" />
-
-                <TextView
-                    android:id="@+id/iv_taylor_chat_name"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_toEndOf="@id/iv_taylor_chat"
-                    android:fontFamily="@font/poppins_semibold"
-                    android:text="@string/taylor_lashae"
-                    android:textColor="@color/black"
-                    android:textSize="@dimen/_18sp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/iv_taylor_chat_name"
-                    android:layout_toEndOf="@id/iv_taylor_chat"
-                    android:fontFamily="@font/poppins_light"
-                    android:text="@string/chat_taylor"
-                    android:textColor="@color/black"
-                    android:textSize="@dimen/_13sp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentEnd="true"
-                    android:fontFamily="@font/poppins_light"
-                    android:text="@string/_09_20"
-                    android:textColor="@color/black"
-                    android:textSize="@dimen/_13sp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/iv_taylor_chat_name"
-                    android:layout_alignParentEnd="true"
-                    android:background="@drawable/main_circle"
-                    android:fontFamily="@font/poppins_semibold"
-                    android:gravity="center"
-                    android:text="@string/_1"
-                    android:textColor="@android:color/white"
-                    android:textSize="@dimen/_10sp"
-                    tools:ignore="SmallSp" />
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/_20dp"
-                android:background="@drawable/edit_text_background"
-                android:padding="@dimen/_10dp">
+                android:layout_below="@id/iv_lucas_chat_name"
+                android:layout_toEndOf="@id/iv_lucas_chat"
+                android:fontFamily="@font/poppins_light"
+                android:text="@string/chat_lucas"
+                android:textColor="@color/light_grey"
+                android:textSize="@dimen/_13sp" />
 
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/iv_lucas_chat"
-                    android:layout_width="@dimen/_50dp"
-                    android:layout_height="@dimen/_50dp"
-                    android:layout_marginEnd="@dimen/_10dp"
-                    android:src="@drawable/lucas_parker" />
-
-                <TextView
-                    android:id="@+id/iv_lucas_chat_name"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_toEndOf="@id/iv_lucas_chat"
-                    android:fontFamily="@font/poppins_semibold"
-                    android:text="@string/lucas_parker"
-                    android:textColor="@color/black"
-                    android:textSize="@dimen/_18sp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/iv_lucas_chat_name"
-                    android:layout_toEndOf="@id/iv_lucas_chat"
-                    android:fontFamily="@font/poppins_light"
-                    android:text="@string/chat_lucas"
-                    android:textColor="@color/light_grey"
-                    android:textSize="@dimen/_13sp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentEnd="true"
-                    android:fontFamily="@font/poppins_light"
-                    android:text="@string/_09_15"
-                    android:textColor="@color/black"
-                    android:textSize="@dimen/_13sp" />
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/_20dp"
-                android:background="@drawable/edit_text_background"
-                android:padding="@dimen/_10dp">
+                android:layout_alignParentEnd="true"
+                android:fontFamily="@font/poppins_light"
+                android:text="@string/_09_15"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13sp"
+                tools:ignore="RelativeOverlap" />
 
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/iv_biology_chat"
-                    android:layout_width="@dimen/_50dp"
-                    android:layout_height="@dimen/_50dp"
-                    android:layout_marginEnd="@dimen/_10dp"
-                    android:src="@drawable/biology_group" />
+        </RelativeLayout>
 
-                <TextView
-                    android:id="@+id/iv_biology_name"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_toEndOf="@id/iv_biology_chat"
-                    android:fontFamily="@font/poppins_semibold"
-                    android:text="@string/biology_group"
-                    android:textColor="@color/black"
-                    android:textSize="@dimen/_18sp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20dp"
+            android:background="@drawable/edit_text_background"
+            android:padding="@dimen/_10dp">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/iv_biology_name"
-                    android:layout_toEndOf="@id/iv_biology_chat"
-                    android:fontFamily="@font/poppins_light"
-                    android:text="@string/chat_biology"
-                    android:textColor="@color/black"
-                    android:textSize="@dimen/_13sp" />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_biology_chat"
+                android:layout_width="@dimen/_50dp"
+                android:layout_height="@dimen/_50dp"
+                android:layout_marginEnd="@dimen/_10dp"
+                android:src="@drawable/biology_group" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentEnd="true"
-                    android:fontFamily="@font/poppins_light"
-                    android:text="@string/_08_50"
-                    android:textColor="@color/black"
-                    android:textSize="@dimen/_13sp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/iv_biology_name"
-                    android:layout_alignParentEnd="true"
-                    android:background="@drawable/main_circle"
-                    android:fontFamily="@font/poppins_semibold"
-                    android:gravity="center"
-                    android:text="@string/_20"
-                    android:textColor="@android:color/white"
-                    android:textSize="@dimen/_10sp"
-                    tools:ignore="SmallSp" />
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
+            <TextView
+                android:id="@+id/iv_biology_name"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/_20dp"
-                android:background="@drawable/edit_text_background"
-                android:padding="@dimen/_10dp">
+                android:layout_toEndOf="@id/iv_biology_chat"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/biology_group"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sp" />
 
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/iv_vina_chat"
-                    android:layout_width="@dimen/_50dp"
-                    android:layout_height="@dimen/_50dp"
-                    android:layout_marginEnd="@dimen/_10dp"
-                    android:src="@drawable/vina_gracia" />
-
-                <TextView
-                    android:id="@+id/iv_vina_chat_name"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_toEndOf="@id/iv_vina_chat"
-                    android:fontFamily="@font/poppins_semibold"
-                    android:text="@string/vina_gracia"
-                    android:textColor="@color/black"
-                    android:textSize="@dimen/_18sp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/iv_vina_chat_name"
-                    android:layout_toEndOf="@id/iv_vina_chat"
-                    android:fontFamily="@font/poppins_light"
-                    android:text="@string/chat_vina"
-                    android:textColor="@color/light_grey"
-                    android:textSize="@dimen/_13sp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentEnd="true"
-                    android:fontFamily="@font/poppins_light"
-                    android:text="@string/_08_48"
-                    android:textColor="@color/black"
-                    android:textSize="@dimen/_13sp" />
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/_20dp"
-                android:background="@drawable/edit_text_background"
-                android:padding="@dimen/_10dp">
+                android:layout_below="@id/iv_biology_name"
+                android:layout_toEndOf="@id/iv_biology_chat"
+                android:fontFamily="@font/poppins_light"
+                android:text="@string/chat_biology"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13sp" />
 
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/iv_univ_chat"
-                    android:layout_width="@dimen/_50dp"
-                    android:layout_height="@dimen/_50dp"
-                    android:layout_marginEnd="@dimen/_10dp"
-                    android:src="@drawable/ui_group" />
-
-                <TextView
-                    android:id="@+id/iv_univ_name"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_toEndOf="@id/iv_univ_chat"
-                    android:fontFamily="@font/poppins_semibold"
-                    android:text="@string/univ_group"
-                    android:textColor="@color/black"
-                    android:textSize="@dimen/_18sp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/iv_univ_name"
-                    android:layout_toEndOf="@id/iv_univ_chat"
-                    android:fontFamily="@font/poppins_light"
-                    android:text="@string/chat_univ"
-                    android:textColor="@color/black"
-                    android:textSize="@dimen/_13sp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentEnd="true"
-                    android:fontFamily="@font/poppins_light"
-                    android:text="@string/_08_40"
-                    android:textColor="@color/black"
-                    android:textSize="@dimen/_13sp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/iv_univ_name"
-                    android:layout_alignParentEnd="true"
-                    android:background="@drawable/main_circle"
-                    android:fontFamily="@font/poppins_semibold"
-                    android:gravity="center"
-                    android:text="@string/_42"
-                    android:textColor="@android:color/white"
-                    android:textSize="@dimen/_10sp"
-                    tools:ignore="SmallSp" />
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="match_parent"
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/_20dp"
-                android:background="@drawable/edit_text_background"
-                android:padding="@dimen/_10dp">
+                android:layout_alignParentEnd="true"
+                android:fontFamily="@font/poppins_light"
+                android:text="@string/_08_50"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13sp" />
 
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:id="@+id/iv_donald_chat"
-                    android:layout_width="@dimen/_50dp"
-                    android:layout_height="@dimen/_50dp"
-                    android:layout_marginEnd="@dimen/_10dp"
-                    android:src="@drawable/donald_mcdonald" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_biology_name"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/main_circle"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center"
+                android:text="@string/_20"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_10sp"
+                tools:ignore="SmallSp" />
 
-                <TextView
-                    android:id="@+id/iv_donald_name"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_toEndOf="@id/iv_donald_chat"
-                    android:fontFamily="@font/poppins_semibold"
-                    android:text="@string/donald_mcdonald"
-                    android:textColor="@color/black"
-                    android:textSize="@dimen/_18sp" />
+        </RelativeLayout>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/iv_donald_name"
-                    android:layout_toEndOf="@id/iv_donald_chat"
-                    android:fontFamily="@font/poppins_light"
-                    android:text="@string/chat_donald"
-                    android:textColor="@color/light_grey"
-                    android:textSize="@dimen/_13sp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20dp"
+            android:background="@drawable/edit_text_background"
+            android:padding="@dimen/_10dp">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentEnd="true"
-                    android:fontFamily="@font/poppins_light"
-                    android:text="@string/_08_15"
-                    android:textColor="@color/black"
-                    android:textSize="@dimen/_13sp" />
-            </RelativeLayout>
-        </LinearLayout>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_vina_chat"
+                android:layout_width="@dimen/_50dp"
+                android:layout_height="@dimen/_50dp"
+                android:layout_marginEnd="@dimen/_10dp"
+                android:src="@drawable/vina_gracia" />
+
+            <TextView
+                android:id="@+id/iv_vina_chat_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/iv_vina_chat"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/vina_gracia"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_vina_chat_name"
+                android:layout_toEndOf="@id/iv_vina_chat"
+                android:fontFamily="@font/poppins_light"
+                android:text="@string/chat_vina"
+                android:textColor="@color/light_grey"
+                android:textSize="@dimen/_13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="@font/poppins_light"
+                android:text="@string/_08_48"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20dp"
+            android:background="@drawable/edit_text_background"
+            android:padding="@dimen/_10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_univ_chat"
+                android:layout_width="@dimen/_50dp"
+                android:layout_height="@dimen/_50dp"
+                android:layout_marginEnd="@dimen/_10dp"
+                android:src="@drawable/ui_group" />
+
+            <TextView
+                android:id="@+id/iv_univ_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/iv_univ_chat"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/univ_group"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_univ_name"
+                android:layout_toEndOf="@id/iv_univ_chat"
+                android:fontFamily="@font/poppins_light"
+                android:text="@string/chat_univ"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="@font/poppins_light"
+                android:text="@string/_08_40"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_univ_name"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/main_circle"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center"
+                android:text="@string/_42"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_10sp"
+                tools:ignore="SmallSp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20dp"
+            android:background="@drawable/edit_text_background"
+            android:padding="@dimen/_10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_donald_chat"
+                android:layout_width="@dimen/_50dp"
+                android:layout_height="@dimen/_50dp"
+                android:layout_marginEnd="@dimen/_10dp"
+                android:src="@drawable/donald_mcdonald" />
+
+            <TextView
+                android:id="@+id/iv_donald_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/iv_donald_chat"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/donald_mcdonald"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_donald_name"
+                android:layout_toEndOf="@id/iv_donald_chat"
+                android:fontFamily="@font/poppins_light"
+                android:text="@string/chat_donald"
+                android:textColor="@color/light_grey"
+                android:textSize="@dimen/_13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="@font/poppins_light"
+                android:text="@string/_08_15"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13sp" />
+        </RelativeLayout>
     </LinearLayout>
-</FrameLayout>
+</LinearLayout>
