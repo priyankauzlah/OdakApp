@@ -33,13 +33,6 @@
                 android:textColor="@color/white"
                 android:textSize="@dimen/_22sp" />
 
-            <ImageView
-                android:id="@+id/iv_arrow_back_mentor"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:layout_marginStart="@dimen/_10dp"
-                android:src="@drawable/arrow_back" />
         </RelativeLayout>
 
         <SearchView

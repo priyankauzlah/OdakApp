@@ -13,18 +13,11 @@
         android:background="@drawable/chat_rectangle"
         android:padding="@dimen/_10dp">
 
-        <ImageView
-            android:id="@+id/left_arrow"
-            android:layout_width="@dimen/_50dp"
-            android:layout_height="@dimen/_50dp"
-            android:layout_centerVertical="true"
-            android:src="@drawable/ic_left_arrow" />
-
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/chat_profile"
             android:layout_width="@dimen/_60dp"
             android:layout_height="@dimen/_60dp"
-            android:layout_toEndOf="@id/left_arrow"
+            android:layout_marginStart="@dimen/_20dp"
             android:src="@drawable/taylor_lashae" />
 
         <TextView
