@@ -1,65 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/planner"
     tools:context=".planner.PlannerFragment">
-    <RelativeLayout
+    <TextView
+        android:id="@+id/tv_planner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/_50dp">
-        <TextView
-            android:id="@+id/tv_planner"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/background_rectangle_small"
-            android:fontFamily="@font/poppins_bold"
-            android:gravity="center"
-            android:text="@string/task_planner"
-            android:textColor="@color/white"
-            android:textSize="@dimen/_22sp" />
+        android:background="@drawable/background_rectangle_small"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="@string/task_planner"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_22sp"
+        />
 
-        <LinearLayout
+    <LinearLayout
+        android:id="@+id/date_planner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_planner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_10dp"
+        android:orientation="horizontal">
+
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/tv_planner"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="@dimen/_10dp"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:fontFamily="@font/poppins_semibold"
-                android:text="@string/text_date"
-                android:textColor="@color/black"
-                android:textSize="@dimen/_16sp" />
-
-            <ImageButton
-                android:layout_width="@dimen/_55dp"
-                android:layout_height="@dimen/_55dp"
-                android:layout_marginStart="@dimen/_10dp"
-                android:background="@drawable/button_round"
-                android:backgroundTint="@color/main_color"
-                android:contentDescription="@string/txt_imagebutton"
-                android:src="@drawable/date" />
-
-        </LinearLayout>
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/text_date"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sp"
+            />
 
         <ImageButton
-            android:id="@+id/btn_add"
-            android:layout_width="@dimen/_60dp"
-            android:layout_height="@dimen/_60dp"
-            android:layout_alignParentEnd="true"
-            android:layout_marginEnd="16dp"
-            android:layout_marginTop="@dimen/_600dp"
-            android:src="@drawable/ic_add"
+            android:layout_width="@dimen/_55dp"
+            android:layout_height="@dimen/_55dp"
+            android:layout_marginStart="@dimen/_10dp"
             android:background="@drawable/button_round"
             android:backgroundTint="@color/main_color"
             android:contentDescription="@string/txt_imagebutton"
-            android:tint="@android:color/white" />
-    </RelativeLayout>
-</ScrollView>
+            android:src="@drawable/date"
+            />
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/grid"
+        android:layout_below="@id/date_planner"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/txt_imageview"
+        />
+
+    <ImageButton
+        android:id="@+id/btn_add"
+        android:layout_width="@dimen/_60dp"
+        android:layout_height="@dimen/_60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="@dimen/_600dp"
+        android:src="@drawable/ic_add"
+        android:background="@drawable/button_round"
+        android:backgroundTint="@color/main_color"
+        android:contentDescription="@string/txt_imagebutton"
+        android:tint="@android:color/white"
+        />
+
+</RelativeLayout>
