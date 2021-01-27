@@ -59,18 +59,4 @@
         android:contentDescription="@string/txt_imagebutton"
         android:tint="@android:color/white" />
 
-
-    <!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
-<!--        android:id="@+id/fab_add"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_alignParentEnd="true"-->
-<!--        android:layout_alignParentBottom="true"-->
-<!--        android:layout_marginEnd="16dp"-->
-<!--        android:layout_marginBottom="@dimen/_90dp"-->
-<!--        android:backgroundTint="@color/main_color"-->
-<!--        android:contentDescription="@string/txt_floatingactionbutton"-->
-<!--        android:src="@drawable/ic_add"-->
-<!--        android:tint="@android:color/white" />-->
-
 </RelativeLayout>
