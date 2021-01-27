@@ -7,11 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.kei.odakapp.R
-import com.kei.odakapp.home.HomeFragment
-import com.kei.odakapp.rank.GlobalRankActivity
 import com.kei.odakapp.task.AddTaskActivity
-import kotlinx.android.synthetic.main.fragment_home.*
-import kotlinx.android.synthetic.main.fragment_planner.*
 import kotlinx.android.synthetic.main.fragment_planner.view.*
 
 
@@ -39,7 +35,5 @@ class PlannerFragment : Fragment() {
         return view
     }
 
-    companion object {
-
-    }
+    companion object
 }

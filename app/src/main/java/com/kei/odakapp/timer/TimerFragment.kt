@@ -29,7 +29,5 @@ class TimerFragment : Fragment() {
         return view
     }
 
-    companion object {
-
-    }
+    companion object
 }

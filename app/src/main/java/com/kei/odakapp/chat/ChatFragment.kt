@@ -30,7 +30,5 @@ class ChatFragment : Fragment() {
         return view
     }
 
-    companion object {
-
-    }
+    companion object
 }
