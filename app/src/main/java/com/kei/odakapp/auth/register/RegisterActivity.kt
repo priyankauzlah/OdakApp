@@ -6,7 +6,6 @@ import android.os.Bundle
 import com.kei.odakapp.MainActivity
 import com.kei.odakapp.R
 import com.kei.odakapp.auth.login.LoginActivity
-import com.kei.odakapp.intro.onboard.SecondOnboardingActivity
 import kotlinx.android.synthetic.main.activity_register.*
 
 class RegisterActivity : AppCompatActivity() {

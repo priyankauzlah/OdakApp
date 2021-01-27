@@ -37,7 +37,7 @@
     <string name="chat">Chat</string>
     <string name="_09_20">09:20</string>
     <string name="chat_taylor">Hi, kamu sudah mengerjak...</string>
-    <string name="_1">1</string>
+    <string name="_1">#1</string>
     <string name="lucas_parker">Lucas Parker</string>
     <string name="chat_lucas">Gimana caranya???</string>
     <string name="_09_15">09:15</string>
@@ -128,6 +128,6 @@
     <string name="txt_imageview">ImageView</string>
     <string name="txt_imagebutton">ImageButton</string>
     <string name="zoey_brooks">Zoey Brooks</string>
-    <string name="txt_imagebutton">ImageButton</string>
     <string name="txt_floatingactionbutton">FloatingActionButton</string>
+    <string name="txt_1">1</string>
 </resources>
