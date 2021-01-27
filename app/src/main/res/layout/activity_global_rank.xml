@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:contentDescription="@string/txt_imageview"
+        android:scaleType="fitXY"
         android:src="@drawable/green" />
 
     <TextView
@@ -125,7 +126,7 @@
         android:layout_width="@dimen/_60dp"
         android:layout_height="@dimen/_60dp"
         android:layout_below="@id/view1"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="@dimen/_24dp"
         android:layout_marginTop="@dimen/_10dp"
         android:layout_toEndOf="@id/tv_no1"
         android:src="@drawable/lucas_parker" />
