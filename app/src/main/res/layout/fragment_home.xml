@@ -56,7 +56,7 @@
             android:layout_alignParentEnd="true"
             android:layout_marginTop="@dimen/_20dp"
             android:layout_marginEnd="@dimen/_16dp"
-            android:src="@drawable/image" />
+            android:src="@drawable/zara_hemswoth" />
 
 
         <TextView
