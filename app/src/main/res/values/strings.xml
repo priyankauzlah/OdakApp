@@ -22,9 +22,9 @@
     <string name="create_password">Create Password</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="hi">Hi, </string>
+    <string name="hi">Hi,</string>
     <string name="name">Name</string>
-    <string name="text_last_log">"Your last log in: "</string>
+    <string name="text_last_log">"Your last log in: 16 minutes ago"</string>
     <string name="last_log">Last Log</string>
     <string name="weekly_statistics">Weekly Statistics</string>
     <string name="today_s_tasks">Today\'s Tasks</string>

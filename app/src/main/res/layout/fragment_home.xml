@@ -26,6 +26,7 @@
             android:layout_marginTop="@dimen/_20dp"
             android:fontFamily="@font/poppins_semibold"
             android:text="@string/hi"
+            android:layout_marginEnd="@dimen/_5dp"
             android:textColor="@android:color/white"
             android:textSize="@dimen/_22sp" />
 
@@ -35,7 +36,7 @@
             android:layout_marginTop="@dimen/_20dp"
             android:layout_toEndOf="@id/tv_hi"
             android:fontFamily="@font/poppins_semibold"
-            android:text="@string/name"
+            android:text="@string/txt_zara_hemsworth"
             android:textColor="@android:color/white"
             android:textSize="@dimen/_22sp"
             tools:ignore="RelativeOverlap" />
